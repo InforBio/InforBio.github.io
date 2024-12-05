@@ -2,4 +2,4 @@
 title: "About US"
 ---
 
-The InforBio Platform is blablabla
+[ARTbio](https://www.artbio.fr) has changed its scientific direction and is now **InforBio**!
