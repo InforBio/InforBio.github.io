@@ -1,0 +1,5 @@
+---
+title: "About US"
+---
+
+The InforBio Platform is blablabla

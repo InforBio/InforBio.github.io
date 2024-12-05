@@ -1,0 +1,55 @@
+---
+title: "R and scRNAseq training"
+---
+
+************* For English version, see below*******************
+
+
+La plateforme de bioinformatique InforBio (anciennement ARTbio) propose des formations en ligne en petits groupes, conçues pour répondre aux besoins des laboratoires de recherche. Notre programme vise à vous transférer les compétences clés pour devenir autonome dans l’analyse de vos données.
+
+Nous offrons un parcours complet sur 6 mois, dédié à l'analyse des données scRNAseq (R, Seurat), organisé en deux modules complémentaires.
+
+Programme de la formation
+
+Formation R (janvier à mars 2025) – 10 sessions de 2h30 – 800 €
+Devenez autonome en R : maîtriser les fondamentaux, l’organisation et filtrage de données, les analyses statistiques de base, et la création de graphiques prêts pour publication. Aucun pré-requis.
+Analyse de données scRNAseq (avril à juin 2025) – 10 sessions de 2h30 – 2000 €
+Apprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques.Vous travaillerez d'abord sur un jeu de données fourni, puis sur vos propres données, avec un retour personnalisé sur votre projet. Cette formation requiert une bonne maîtrise de R. 
+
+La formation complète est proposée au tarif de 2500 €.
+
+Points clés :
+Sessions en petits groupes pour un apprentissage interactif et individualisé.
+Mise en pratique avec un projet individualisé présenté à la fin de chaque formation.
+Accompagnement personnalisé avec feedback sur vos propres données.
+Places limitées, inscriptions déjà ouvertes.
+
+👉Inscription en ligne : [https://forms.gle/yUGx6VorANjYobLJ8](https://forms.gle/yUGx6VorANjYobLJ8)
+
+N’hésitez pas à nous contacter si vous avez des questions : inforbio@sorbonne-universite.fr
+
+
+***************************************************************
+
+
+The bioinformatic plateform InforBio  (formerly ARTbio) offers online bioinformatics training tailored to the needs of research labs, with small group sessions to ensure personalized learning. Our program is designed to help you acquire key skills for independent data analysis.
+
+We offer a comprehensive 6-month program dedicated to scRNAseq analysis (R, Seurat), structured into two complementary modules.
+
+Training Program
+R Training (January to March 2025) – 10 sessions of 2.5 hours – €800
+This course covers the basics of R, data organization and filtering, basic statistics, and creation of publication-ready graphics. The goal is to make you self-sufficient in using R for your own analyses.
+scRNAseq Data Analysis (April to June 2025) – 10 sessions of 2.5 hours – €2000
+Learn how to analyze single-cell RNA sequencing data through practical examples. You'll work on a provided dataset and receive personalized feedback on your own projects. This training requires a proficiency in R.
+
+The complete training package is available for €2500.
+Key Highlights:
+Small group sessions for interactive and personalized learning.
+Hands-on practice with an individualized project presented at the end of each training course.
+Tailored feedback on your own data.
+Limited spots available, registration is now open.
+
+👉 Register here : [https://forms.gle/yUGx6VorANjYobLJ8](https://forms.gle/yUGx6VorANjYobLJ8)
+
+
+Feel free to reach out if you have any questions:  inforbio@sorbonne-universite.fr
