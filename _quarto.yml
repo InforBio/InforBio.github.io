@@ -3,12 +3,12 @@ project:
   output-dir: docs/
 
 website:
-  title: "Interactive Online Companionship (IOC)"
+  title: "InforBio"
   navbar:
     left:
       - href: index.qmd
-        text: Inscription
-      - about.qmd
+        text: About US
+      - ioc_info.qmd
 
 format:
   html:
