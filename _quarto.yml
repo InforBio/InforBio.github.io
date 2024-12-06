@@ -22,8 +22,8 @@ website:
             href: what_is_ioc.qmd
           - text: "IOC R & scRNAseq"
             href: ioc_r_scrnaseq.qmd
-          - text: "IOC Galaxy"
-            href: ioc_galaxy.qmd
+          - text: "IOC Bulk RNAseq"
+            href: ioc_bulk_rnaseq.qmd
       # - text: "News"
       #   href: news.qmd
       # - icon: github
