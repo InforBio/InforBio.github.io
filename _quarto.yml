@@ -21,7 +21,7 @@ website:
           - text: "What is IOC?"
             href: what_is_ioc.qmd
           - text: "IOC R & scRNAseq"
-            href: ioc_info.qmd
+            href: ioc_r_scrnaseq.qmd
           - text: "IOC Galaxy"
             href: ioc_galaxy.qmd
       - text: "News"
