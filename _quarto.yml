@@ -9,7 +9,7 @@ website:
   
   page-footer: 
     right: "This page is built with ❤️️ and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
-    left: "&copy; CC-By InforBio"
+    # left: "&copy; CC-By InforBio"
     
   navbar:
     logo: images/logoInforBio_fond_blanc.png
@@ -24,10 +24,10 @@ website:
             href: ioc_r_scrnaseq.qmd
           - text: "IOC Galaxy"
             href: ioc_galaxy.qmd
-      - text: "News"
-        href: news.qmd
-      - icon: github
-        href: https://github.com/InforBio/InforBio.github.io
+      # - text: "News"
+      #   href: news.qmd
+      # - icon: github
+      #   href: https://github.com/InforBio/InforBio.github.io
 
 
 format:
