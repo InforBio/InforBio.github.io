@@ -4,11 +4,31 @@ project:
 
 website:
   title: "InforBio"
+  site-url: https://inforbio.github.io/
+  # favicon: images/inforbio_logo.png
+  
+  page-footer: 
+    right: "This page is built with ❤️️ and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
+    left: "&copy; CC-By InforBio"
+    
   navbar:
+    # logo: images/inforbio_logo.png
     left:
       - href: index.qmd
-        text: About US
-      - ioc_info.qmd
+        text: "About US"
+      - text: "Trainings"
+        menu: 
+          - text: "What is IOC?"
+            href: what_is_ioc.qmd
+          - text: "IOC R & scRNAseq"
+            href: ioc_info.qmd
+          - text: "IOC Galaxy"
+            href: ioc_galaxy.qmd
+      - text: "News"
+        href: news.qmd
+      - icon: github
+        href: https://github.com/InforBio/InforBio.github.io
+
 
 format:
   html:

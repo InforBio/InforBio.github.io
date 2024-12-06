@@ -1,0 +1,7 @@
+---
+title: "News"
+---
+
+* news 1
+
+* news 2
