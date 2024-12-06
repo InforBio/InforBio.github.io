@@ -26,8 +26,8 @@ website:
             href: ioc_bulk_rnaseq.qmd
       # - text: "News"
       #   href: news.qmd
-      # - icon: github
-      #   href: https://github.com/InforBio/InforBio.github.io
+      - icon: github
+        href: https://github.com/InforBio/InforBio.github.io
 
 
 format:
