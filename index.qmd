@@ -1,5 +1,0 @@
----
-title: "About US"
----
-
-[ARTbio](https://www.artbio.fr) has changed its scientific direction and is now **InforBio**!

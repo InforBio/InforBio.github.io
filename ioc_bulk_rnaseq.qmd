@@ -1,5 +1,0 @@
----
-title: "IOC on bulk RNAseq analysis"
----
-
-Training on bulk RNAseq analysis with Galaxy is upcoming!
