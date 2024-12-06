@@ -1,5 +1,0 @@
----
-title: "Galaxy training"
----
-
-Galaxy training is upcoming!
