@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About US",
+    "section": "",
+    "text": "ARTbio has changed its scientific direction and is now InforBio!\nInforBio is the bioinformatics platform of the Institute of Biology Paris-Seine (IBPS), we provides support to biologists in their analyses, at the IBPS and beyond."
+  },
+  {
+    "objectID": "what_is_ioc.html",
+    "href": "what_is_ioc.html",
+    "title": "What is IOC?",
+    "section": "",
+    "text": "The InforBio platform has developed an “Interactive Online Companionship” (IOC) specifically tailored to initiate researchers into bioinformatics. The IOC involved one-to-many virtual work sessions where companions are trained to analyze their own data.\nAll IOC programs are structured into a series of modules, with each module building upon the knowledge and skills acquired in the previous one. One module lasts one week, during which companions dive into online materials to ensure they understand and internalize the content. Companions then complete quizzes and exercises using both public and their own data to gauge their understanding, receiving personalized feedback on their work. To facilitate their learning, we provide access to computational resources such as Rstudio and Galaxy servers. The module wraps up with a 2.5 hours’ videoconference to recap the week’s material and address any questions. These videoconferences are recorded and made available for later viewing, ensuring continuous access to the learning resources.\nBy the end of an IOC, companions will be equipped with expertise and confidence to run their own analyses independently."
+  },
+  {
     "objectID": "ioc_r_scrnaseq.html",
     "href": "ioc_r_scrnaseq.html",
     "title": "IOC R and scRNAseq trainings",
@@ -14,24 +28,10 @@
     "text": "Training on bulk RNAseq analysis with Galaxy is upcoming!"
   },
   {
-    "objectID": "what_is_ioc.html",
-    "href": "what_is_ioc.html",
-    "title": "What is IOC?",
-    "section": "",
-    "text": "The InforBio platform has developed an “Interactive Online Companionship” (IOC) specifically tailored to initiate researchers into bioinformatics. The IOC involved one-to-many virtual work sessions where companions are trained to analyze their own data.\nAll IOC programs are structured into a series of modules, with each module building upon the knowledge and skills acquired in the previous one. One module lasts one week, during which companions dive into online materials to ensure they understand and internalize the content. Companions then complete quizzes and exercises using both public and their own data to gauge their understanding, receiving personalized feedback on their work. To facilitate their learning, we provide access to computational resources such as Rstudio and Galaxy servers. The module wraps up with a 2.5 hours’ videoconference to recap the week’s material and address any questions. These videoconferences are recorded and made available for later viewing, ensuring continuous access to the learning resources.\nBy the end of an IOC, companions will be equipped with expertise and confidence to run their own analyses independently."
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
     "text": "news 1\nnews 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About US",
-    "section": "",
-    "text": "ARTbio has changed its scientific direction and is now InforBio!\nInforBio is the bioinformatics platform of the Institute of Biology Paris-Seine (IBPS), we provides support to biologists in their analyses, at the IBPS and beyond."
   }
 ]
