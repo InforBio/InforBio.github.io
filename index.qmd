@@ -2,7 +2,7 @@
 title: "About US"
 ---
 
-[ARTbio](https://www.artbio.fr) has changed its scientific direction and is now **InforBio**!
+ARTbio has changed its scientific direction and is now **InforBio**!
 
 *InforBio* is the bioinformatics platform of the Institute of Biology Paris-Seine ([IBPS](https://www.ibps.sorbonne-universite.fr/en)),
 we provides support to biologists in their analyses, at the IBPS and beyond.
