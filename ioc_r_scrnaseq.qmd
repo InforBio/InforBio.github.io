@@ -10,13 +10,13 @@ organisé en deux modules complémentaires.
 
 **Programme de la formation**
 
-- **Formation R** (janvier à mars 2025) – **10 sessions de 2h30** – **800 €**
+- **Introduction à R orienté data science** (novembre 2025 à janvier 2026) – **10 sessions de 3 heures** – **800 €**
 
   Devenez autonome en R : maîtriser les fondamentaux,
   l’organisation et filtrage de données, les analyses statistiques de base,
   et la création de graphiques prêts pour publication. Aucun pré-requis.
 
-- **Analyse de données scRNAseq** (avril à juin 2025) – **10 sessions de 2h30** – **2000 €**
+- **Analyse de données scRNAseq** (mars à juin 2026) – **10 sessions de 3 heures** – **2000 €**
 
   Apprenez à analyser des données de séquençage ARN en cellules uniques
   grâce à des cas pratiques. Vous travaillerez d'abord sur un jeu de données
@@ -29,11 +29,12 @@ La formation complète est proposée au tarif de **2500 €**.
 **Points clés** :
 
 - **Sessions en petits groupes** pour un apprentissage interactif et individualisé.
+- **Mode hybride** avec 3 sessions en présentiel et 7 à distance.
 - **Mise en pratique** avec un projet individualisé présenté à la fin de chaque formation.
 - **Accompagnement personnalisé** avec feedback sur vos propres données.
 - **Places limitées**, inscriptions déjà ouvertes.
 
-👉Inscription en ligne : [https://forms.gle/yUGx6VorANjYobLJ8](https://forms.gle/yUGx6VorANjYobLJ8)
+👉Inscription en ligne : <https://forms.gle/7gxDEDjvfd8KA23v8>
 
 N’hésitez pas à nous contacter si vous avez des questions : 
 [inforbio@sorbonne-universite.fr](mailto:inforbio@sorbonne-universite.fr)
@@ -47,13 +48,13 @@ We offer a comprehensive **6-month program** dedicated to
 
 **Training Program**
 
-- **R Training** (January to March 2025) – **10 sessions of 2.5 hours** – **€800**
+- **Introduction R for data science** (January to March 2025) – **10 sessions of 3 hours** – **€800**
 
   This course covers the basics of R, data organization and filtering,
   basic statistics, and creation of publication-ready graphics.
   The goal is to make you self-sufficient in using R for your own analyses.
   
-- **scRNAseq Data Analysis** (April to June 2025) – **10 sessions of 2.5 hours** – **€2000**
+- **scRNAseq Data Analysis** (April to June 2025) – **10 sessions of 3 hours** – **€2000**
 
   Learn how to analyze single-cell RNA sequencing data through practical examples.
   You'll work on a provided dataset and receive personalized feedback on
@@ -64,11 +65,12 @@ The complete training package is available for **€2500**.
 **Key Highlights**:
 
 - **Small group sessions** for interactive and personalized learning.
+- **Hybrid mode** with 3 in-person sessions and 7 remote sessions.
 - **Hands-on practice** with an individualized project presented at the end of each training course.
 - **Tailored feedback** on your own data.
 - **Limited spots available**, registration is now open.
 
-👉 Register here : [https://forms.gle/yUGx6VorANjYobLJ8](https://forms.gle/yUGx6VorANjYobLJ8)
+👉 Register here : <https://forms.gle/7gxDEDjvfd8KA23v8>
 
 Feel free to reach out if you have any questions:
 [inforbio@sorbonne-universite.fr](mailto:inforbio@sorbonne-universite.fr)
