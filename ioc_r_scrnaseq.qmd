@@ -16,6 +16,19 @@ organisé en deux modules complémentaires.
   l’organisation et filtrage de données, les analyses statistiques de base,
   et la création de graphiques prêts pour publication. Aucun pré-requis.
 
+| **Week**               | **Session**                                                   |
+|------------------------|---------------------------------------------------------------|
+| **Week 1 (in-person)** | Kickstart with R: Your Gateway to Data Science                |
+| Week 2                 | Data Foundations: Vectors and Matrices                        |
+| Week 3                 | More Complex Data Structures: Data Frames and Lists           |
+| Week 4                 | Building Logic: Operators, Conditions and Functions           |
+| **Week 5 (in-person)** | Graphing with {`ggplot2`}  (Part 1)                           |
+| Week 6                 | R-fresh: Revisiting the Essentials                            |
+| Week 7                 | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |
+| Week 8                 | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |
+| **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |
+| Week 10                | Your project presentation                                     |
+
 - **Analyse de données scRNAseq** (mars à juin 2026) – **10 sessions de 3 heures** – **2000 €**
 
   Apprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques.
@@ -52,6 +65,19 @@ structured into two complementary modules.
   This course covers the basics of R, data organization and filtering,
   basic statistics, and creation of publication-ready graphics.
   The goal is to make you self-sufficient in using R for your own analyses.
+
+| **Week**               | **Session**                                                   |
+|------------------------|---------------------------------------------------------------|
+| **Week 1 (in-person)** | Kickstart with R: Your Gateway to Data Science                |
+| Week 2                 | Data Foundations: Vectors and Matrices                        |
+| Week 3                 | More Complex Data Structures: Data Frames and Lists           |
+| Week 4                 | Building Logic: Operators, Conditions and Functions           |
+| **Week 5 (in-person)** | Graphing with {`ggplot2`}  (Part 1)                           |
+| Week 6                 | R-fresh: Revisiting the Essentials                            |
+| Week 7                 | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |
+| Week 8                 | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |
+| **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |
+| Week 10                | Your project presentation                                     |
   
 - **scRNAseq Data Analysis** (March to June 2026) – **10 sessions of 3 hours** – **€2000**
 
