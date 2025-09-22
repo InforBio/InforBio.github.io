@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://inforbio.github.io/ioc_r_scrnaseq.html</loc>
-    <lastmod>2025-09-12T08:45:36.958Z</lastmod>
+    <loc>https://InforBio.github.io/ioc_r_scrnaseq.html</loc>
+    <lastmod>2025-09-22T08:48:15.096Z</lastmod>
   </url>
   <url>
-    <loc>https://inforbio.github.io/ioc_bulk_rnaseq.html</loc>
-    <lastmod>2025-09-12T08:45:36.958Z</lastmod>
+    <loc>https://InforBio.github.io/news.html</loc>
+    <lastmod>2025-09-22T08:48:15.096Z</lastmod>
   </url>
   <url>
-    <loc>https://inforbio.github.io/index.html</loc>
-    <lastmod>2025-09-12T08:45:36.958Z</lastmod>
+    <loc>https://InforBio.github.io/what_is_ioc.html</loc>
+    <lastmod>2025-09-22T08:48:15.096Z</lastmod>
   </url>
   <url>
-    <loc>https://inforbio.github.io/what_is_ioc.html</loc>
-    <lastmod>2025-09-12T08:45:36.959Z</lastmod>
+    <loc>https://InforBio.github.io/index.html</loc>
+    <lastmod>2025-09-22T08:48:15.095Z</lastmod>
   </url>
   <url>
-    <loc>https://inforbio.github.io/news.html</loc>
-    <lastmod>2025-09-12T08:45:36.958Z</lastmod>
+    <loc>https://InforBio.github.io/ioc_bulk_rnaseq.html</loc>
+    <lastmod>2025-09-22T08:48:15.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InforBio.github.io/short_lectures.html</loc>
+    <lastmod>2025-09-22T08:48:15.096Z</lastmod>
   </url>
 </urlset>
