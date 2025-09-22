@@ -4,12 +4,12 @@ project:
 
 website:
   title: "InforBio"
-  site-url: https://inforbio.github.io/
+  # site-url: https://inforbio.github.io/
   favicon: images/logoInforBio_fond_blanc.png
   
   page-footer: 
     right: "This page is built with [Quarto](https://quarto.org/)"
-    # left: "&copy; CC-By InforBio"
+    left: "&copy; CC BY-NC 4.0 [InforBio]"
     
   navbar:
     logo: images/logoInforBio_fond_blanc.png
@@ -24,6 +24,8 @@ website:
             href: ioc_r_scrnaseq.qmd
           - text: "IOC Bulk RNAseq"
             href: ioc_bulk_rnaseq.qmd
+      - href: short_lectures.qmd
+        text: "Short-Lectures Zoom"
       # - text: "News"
       #   href: news.qmd
       - icon: github
