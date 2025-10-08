@@ -16,7 +16,7 @@ organisé en deux modules complémentaires.
   l’organisation et filtrage de données, les analyses statistiques de base,
   et la création de graphiques prêts pour publication. Aucun pré-requis.
 
-| **Week**               | **Session**                                                   | **Samaine Prévue** |
+| **Week**               | **Session**                                                   | **Semaine Prévue** |
 |------------------------|---------------------------------------------------------------| -----------|
 | **Week 1 (in-person)** | Kickstart with R: Your Gateway to Data Science                |  03/11     |
 | Week 2                 | Data Foundations: Vectors and Matrices                        |  10/11     |
