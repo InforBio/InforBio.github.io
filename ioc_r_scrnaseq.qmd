@@ -1,16 +1,20 @@
 ---
 title: "IOC R and scRNAseq trainings"
+format: html
 ---
 
-************* For English version, see below*******************
+::: {.panel-tabset}
 
-Nous offrons un parcours complet sur **6 mois**,
-dédié à l'analyse des données **scRNAseq** (R, Seurat),
-organisé en deux modules complémentaires.
+### Version Française
+
+La plateforme InforBio vous propose des formations en bioinformatique en ligne,
+en petits groupes, adaptées aux besoins des laboratoires de recherche.
+Nous proposons un parcours complet sur 6 mois, organisé en deux modules complémentaires.
+
 
 **Programme de la formation**
 
-- **Introduction à R orienté data science** (novembre 2025 à janvier 2026) – **10 sessions de 3 heures** – **800 €**
+- **Introduction à R pour l’analyse de données** (novembre 2025 à janvier 2026) – **10 sessions de 3 heures** – **800 €**
 
   Devenez autonome en R : maîtriser les fondamentaux,
   l’organisation et filtrage de données, les analyses statistiques de base,
@@ -34,7 +38,21 @@ organisé en deux modules complémentaires.
   Apprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques.
   Vous travaillerez d'abord sur un jeu de données fourni,
   puis sur vos propres données, avec un retour personnalisé sur votre projet.
-  Cette formation requiert une bonne maîtrise de R. 
+  Cette formation requiert une bonne maîtrise de R.
+
+
+| **Week** | **Session**                      |
+|----------|----------------------------------|
+| Week 1   | Introduction                     |
+| Week 2   | Quality Control & Normalisation  |
+| Week 3   | Dimensionality Reduction         |
+| Week 4   | Clustering (Part 1)              |
+| Week 5   | Clustering (Part 2)              |
+| Week 6   | Ingegration                      |
+| Week 7   | Annotation                       |
+| Week 8   | Multiome                         |
+| Week 9   | Enrichment Analysis              |
+| Week 10  | Your project presentation        |
 
 La formation complète est proposée au tarif de **2500 €**.
 
@@ -52,15 +70,16 @@ N’hésitez pas à nous contacter si vous avez des questions :
 [inforbio@sorbonne-universite.fr](mailto:inforbio@sorbonne-universite.fr)
 
 
-***************************************************************
+### English Version
 
+The InforBio platform offers you online training in bioinformatics,
+in small groups, adapted to the needs of research laboratories.
+We offer a complete course over 6 months, organized in two complementary modules.
 
-We offer a comprehensive **6-month program** dedicated to **scRNAseq analysis** (R, Seurat),
-structured into two complementary modules.
 
 **Training Program**
 
-- **Introduction R for data science** (November 2025 to January 2026) – **10 sessions of 3 hours** – **€800**
+- **Introduction to R for data analysis** (November 2025 to January 2026) – **10 sessions of 3 hours** – **€800**
 
   This course covers the basics of R, data organization and filtering,
   basic statistics, and creation of publication-ready graphics.
@@ -85,6 +104,20 @@ structured into two complementary modules.
   You'll work on a provided dataset and receive personalized feedback on your own projects.
   This training requires a proficiency in R.
 
+| **Week** | **Session**                      |
+|----------|----------------------------------|
+| Week 1   | Introduction                     |
+| Week 2   | Quality Control & Normalisation  |
+| Week 3   | Dimensionality Reduction         |
+| Week 4   | Clustering (Part 1)              |
+| Week 5   | Clustering (Part 2)              |
+| Week 6   | Ingegration                      |
+| Week 7   | Annotation                       |
+| Week 8   | Multiome                         |
+| Week 9   | Enrichment Analysis              |
+| Week 10  | Your project presentation        |
+
+
 The complete training package is available for **€2500**.
 
 **Key Highlights**:
@@ -99,3 +132,5 @@ The complete training package is available for **€2500**.
 
 Feel free to reach out if you have any questions:
 [inforbio@sorbonne-universite.fr](mailto:inforbio@sorbonne-universite.fr)
+
+:::
