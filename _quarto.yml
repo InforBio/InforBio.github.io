@@ -26,6 +26,12 @@ website:
             href: ioc_bulk_rnaseq.qmd
       - href: short_lectures.qmd
         text: "Short-Lectures Zoom"
+      - text: "Services"
+        menu: 
+          - text: "Analysis Services"
+          - href: services.qmd
+      - href: contact.qmd
+        text: "Contact"
       # - text: "News"
       #   href: news.qmd
       - icon: github
