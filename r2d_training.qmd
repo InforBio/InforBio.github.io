@@ -1,0 +1,21 @@
+---
+title: "2-Day R Training"
+format: html
+---
+
+The InforBio platform offers a short in-person R training course, taught in English, designed to **refresh core skills** and help you **level up** your coding. It also provides a foundation for further training, such as scRNAseq data analysis. 
+
+Participants should have some prior experience with R, as the training assumes familiarity with the basics. 
+
+The training will take place on March 12th and 13th, 2026, with the following planned content:
+
+- Quarto and good practices (including working with servers)
+- R essentials: data frame manipulation and path management
+- Descriptive analysis and data visualization with ggplot2
+- Principal component analysis (PCA)
+
+The training will be limited to a maximum of 10 participants.
+
+The fees are 150€ for IBPS students and 250€ for non-students.
+
+You can register via this form: <https://forms.gle/hV3V38Bh97gdU4bMA>
