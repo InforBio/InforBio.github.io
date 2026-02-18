@@ -3,7 +3,7 @@ project:
   output-dir: docs/
 
 website:
-  title: "InforBio"
+  # title: "InforBio"
   # site-url: https://inforbio.github.io/
   favicon: images/logoInforBio_fond_blanc.png
   
@@ -16,6 +16,8 @@ website:
     left:
       - href: index.qmd
         text: "About US"
+      - href: services.qmd
+        text: "Services"
       - text: "Trainings"
         menu: 
           - text: "What is IOC?"
@@ -24,6 +26,8 @@ website:
             href: ioc_r_scrnaseq.qmd
           - text: "IOC Bulk RNAseq"
             href: ioc_bulk_rnaseq.qmd
+          - text: "2-Day R training"
+            href: r2d_training.qmd
       - href: short_lectures.qmd
         text: "Short-Lectures Zoom"
       # - text: "News"
