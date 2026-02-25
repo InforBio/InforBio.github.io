@@ -16,6 +16,11 @@ The training will take place on March 12th and 13th, 2026, with the following pl
 
 The training will be limited to a maximum of 10 participants.
 
-The fees are 150€ for IBPS students and 250€ for non-students.
+Registration fees:
+
+- IBPS/SU students: 150 €
+- IBPS/SU staff (researchers, postdocs, engineers, *etc.*): 250 €
+- External academic participants: 350 €
+- Industry/private sector participants: 600 €
 
 You can register via this form: <https://forms.gle/hV3V38Bh97gdU4bMA>
