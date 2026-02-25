@@ -10,7 +10,7 @@ Our team covers a broad range of applications, with specific core expertise in t
 
 ## Contact Us
 
-![](images/email_inforbio.png){width=300px}
+![](../images/email_inforbio.png){width=300px}
 <!-- 
 to create a google formula for the contact
 
@@ -25,7 +25,7 @@ Institut de Biologie Paris-Seine,
 Bâtiment B, 7e étage, porte 725,
 7-9 Quai St Bernard
 
-![](images/plan-campus-PMC-1.png){width=500px}
+![](../images/plan-campus-PMC-1.png){width=500px}
 
 
 <!-- {data-icon=laptop} service
