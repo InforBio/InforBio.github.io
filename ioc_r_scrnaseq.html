@@ -240,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Week 10</td>
 <td>Your project presentation</td>
-<td>A définir</td>
+<td>11/03</td>
 </tr>
 </tbody>
 </table>
@@ -379,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Week 10</td>
 <td>Your project presentation</td>
-<td>TBD</td>
+<td>11/03</td>
 </tr>
 </tbody>
 </table>
@@ -542,6 +542,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
