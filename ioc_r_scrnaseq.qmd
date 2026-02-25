@@ -31,7 +31,7 @@ Nous proposons un parcours complet sur 6 mois, organisé en deux modules complé
 | Week 7                 | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  12/01     |
 | Week 8                 | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  19/01     |
 | **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |  26/01     |
-| Week 10                | Your project presentation                                     |  A définir |
+| Week 10                | Your project presentation                                     |  11/03 |
 
 - **Analyse de données scRNAseq** (mars à juin 2026) – **10 sessions de 3 heures** – **2000 €**
 
@@ -96,7 +96,7 @@ We offer a complete course over 6 months, organized in two complementary modules
 | Week 7                 | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  12/01   |
 | Week 8                 | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  19/01   |
 | **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |  26/01   |
-| Week 10                | Your project presentation                                     |  TBD     |
+| Week 10                | Your project presentation                                     |  11/03     |
   
 - **scRNAseq Data Analysis** (March to June 2026) – **10 sessions of 3 hours** – **€2000**
 
