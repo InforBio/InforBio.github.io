@@ -1,8 +1,12 @@
-.Rproj.user/
-.Rhistory
-.RData
-.Ruserdata
-.DS_Store
+# R project files to ignore
+/.Rproj.user/
+/.Rhistory
+/.RData
+/.Ruserdata
+
+# System files to ignore
 **/.DS_Store
-docs/
-.quarto/
+
+# Quarto files to ignore
+/docs/
+/.quarto/
