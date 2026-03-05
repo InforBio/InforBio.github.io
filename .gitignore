@@ -1,8 +1,8 @@
-.Rproj.user
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
 .DS_Store
-docs
-
-/.quarto/
+**/.DS_Store
+docs/
+.quarto/
