@@ -14,7 +14,7 @@ website:
   navbar:
     logo: images/logoInforBio_fond_blanc.png
     left:
-      - href: content/index.qmd
+      - href: index.qmd
         text: "About US"
       - href: content/services.qmd
         text: "Services"
