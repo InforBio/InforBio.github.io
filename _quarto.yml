@@ -16,22 +16,22 @@ website:
     left:
       - href: index.qmd
         text: "About US"
-      - href: services.qmd
+      - href: content/services.qmd
         text: "Services"
       - text: "Trainings"
         menu: 
           - text: "What is IOC?"
-            href: what_is_ioc.qmd
+            href: content/what_is_ioc.qmd
           - text: "IOC R & scRNAseq"
-            href: ioc_r_scrnaseq.qmd
+            href: content/ioc_r_scrnaseq.qmd
           - text: "IOC Bulk RNAseq"
-            href: ioc_bulk_rnaseq.qmd
+            href: content/ioc_bulk_rnaseq.qmd
           - text: "2-Day R training"
-            href: r2d_training.qmd
-      - href: short_lectures.qmd
+            href: content/r2d_training.qmd
+      - href: content/short_lectures.qmd
         text: "Short-Lectures Zoom"
       # - text: "News"
-      #   href: news.qmd
+      #   href: content/news.qmd
       - icon: github
         href: https://github.com/InforBio/InforBio.github.io
 
@@ -40,7 +40,6 @@ link-external-newwindow: true
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
 
 
