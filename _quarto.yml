@@ -15,7 +15,7 @@ website:
     logo: images/logoInforBio_fond_blanc.png
     left:
       - href: index.qmd
-        text: "About US"
+        text: "About Us"
       - href: content/services.qmd
         text: "Services"
       - text: "Trainings"

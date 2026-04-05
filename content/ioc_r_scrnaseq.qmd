@@ -80,7 +80,7 @@ in small groups, adapted to the needs of research laboratories.
 We offer a complete course over 6 months, organized in two complementary modules.
 
 
-**Training Program**
+**Training program**
 
 - **Introduction to R for data analysis** (November 2025 to January 2026) – **10 sessions of 3 hours** – **€800**
 
@@ -101,7 +101,7 @@ We offer a complete course over 6 months, organized in two complementary modules
 | **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |  26/01   |
 | Week 10                | Your project presentation                                     |  11/03     |
   
-- **scRNAseq Data Analysis** (March to June 2026) – **10 sessions of 3 hours** – **€2000**
+- **scRNAseq data analysis** (March to June 2026) – **10 sessions of 3 hours** – **€2000**
 
   Learn how to analyze single-cell RNA sequencing data through practical examples.
   You'll work on a provided dataset and receive personalized feedback on your own projects.
@@ -123,7 +123,7 @@ We offer a complete course over 6 months, organized in two complementary modules
 
 The complete training package is available for **€2500**.
 
-**Key Highlights**:
+**Key highlights**:
 
 - **Small group sessions** for interactive and personalized learning.
 - **Hybrid mode** with 3 in-person sessions and 7 remote sessions.
@@ -137,6 +137,6 @@ The complete training package is available for **€2500**.
 
 Feel free to reach out if you have any questions!
 
-![](images/email_inforbio.png){width=200px}
+![](images/email_inforbio.png){width=300px}
 
 :::
