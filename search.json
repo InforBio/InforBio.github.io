@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "content/ioc_bulk_rnaseq.html",
+    "href": "content/ioc_bulk_rnaseq.html",
+    "title": "IOC on bulk RNAseq analysis",
+    "section": "",
+    "text": "Training on bulk RNAseq analysis with Galaxy is upcoming!"
+  },
+  {
     "objectID": "content/short_lectures.html",
     "href": "content/short_lectures.html",
     "title": "",
@@ -12,13 +19,6 @@
     "title": "",
     "section": "",
     "text": "The InforBio platform offers a series of “Short-Lectures” in Zoom (maximum 30 minutes) on tools and best practices in bioinformatics and biostatistics.\nThese “Short-Lectures” take place on Tuesday mornings at 9:30 a.m.\nWe’d love for you to join us, learn and share together, and grow with the community!\n\n\n\n30/09: The IFB tools for biological data analysis (@Naïra Naouar)\n07/10: Introduction to R & RStudio (@Lijiao Ning)\n14/10: Best practices in data science project management (@Ivain Raslain)\n04/11: Principal Component Analysis (PCA) (@Lorette Noiret)\n18/11: Introduction to cell segmentation (@Abdelmounim Essabbar)\n\n\n\n\nComing soon!"
-  },
-  {
-    "objectID": "content/news.html",
-    "href": "content/news.html",
-    "title": "News",
-    "section": "",
-    "text": "news 1\nnews 2"
   },
   {
     "objectID": "content/what_is_ioc.html",
@@ -37,37 +37,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About US",
+    "title": "About Us",
     "section": "",
     "text": "We provide biological researchers with statistical and bioinformatics expertise, analysis tools, and high performance computing resources. Our team covers a broad range of applications, with specific core expertise in transcriptomics and epigenetics."
   },
   {
     "objectID": "index.html#accelerate-your-omics-analyses-with-inforbio",
     "href": "index.html#accelerate-your-omics-analyses-with-inforbio",
-    "title": "About US",
+    "title": "About Us",
     "section": "",
     "text": "We provide biological researchers with statistical and bioinformatics expertise, analysis tools, and high performance computing resources. Our team covers a broad range of applications, with specific core expertise in transcriptomics and epigenetics."
   },
   {
     "objectID": "index.html#contact-us",
     "href": "index.html#contact-us",
-    "title": "About US",
+    "title": "About Us",
     "section": "Contact Us",
     "text": "Contact Us\n \nAdresse: Institut de Biologie Paris-Seine, Bâtiment B, 7e étage, porte 725, 7-9 Quai St Bernard"
   },
   {
     "objectID": "index.html#members",
     "href": "index.html#members",
-    "title": "About US",
+    "title": "About Us",
     "section": "Members",
     "text": "Members\n\nLorette Noiret - Scientific Head\nNaïra Naouar - Operation Manager\nLijiao Ning - Engineer Statistician\nAbdel Mounim Essabbar - Research Fellow\nIvain Raslain - PhD Student\nJoe Ueda - Bioinformatician"
   },
   {
-    "objectID": "content/ioc_r_scrnaseq.html",
-    "href": "content/ioc_r_scrnaseq.html",
-    "title": "IOC R and scRNAseq trainings",
+    "objectID": "content/news.html",
+    "href": "content/news.html",
+    "title": "News",
     "section": "",
-    "text": "Version FrançaiseEnglish Version\n\n\nLa plateforme InforBio vous propose des formations en bioinformatique en ligne, en petits groupes, adaptées aux besoins des laboratoires de recherche. Nous proposons un parcours complet sur 6 mois, organisé en deux modules complémentaires.\nProgramme de la formation\n\nIntroduction à R pour l’analyse de données (novembre 2025 à janvier 2026) – 10 sessions de 3 heures – 800 €\nDevenez autonome en R : maîtriser les fondamentaux, l’organisation et filtrage de données, les analyses statistiques de base, et la création de graphiques prêts pour publication. Aucun pré-requis.\n\n\n\n\n\n\n\n\n\nWeek\nSession\nSemaine Prévue\n\n\n\n\nWeek 1 (in-person)\nKickstart with R: Your Gateway to Data Science\n03/11\n\n\nWeek 2\nData Foundations: Vectors and Matrices\n10/11\n\n\nWeek 3\nMore Complex Data Structures: Data Frames and Lists\n17/11\n\n\nWeek 4\nBuilding Logic: Operators, Conditions and Functions\n24/11\n\n\nWeek 5 (in-person)\nGraphing with {ggplot2} (Part 1)\n01/12\n\n\nWeek 6\nR-fresh: Revisiting the Essentials\n05/01\n\n\nWeek 7\nTidy Up: Wrangling Data with {dplyr} and {tidyr}\n12/01\n\n\nWeek 8\nGraphs Level Up: {ggplot2} (Part 2) & Custom Functions\n19/01\n\n\nWeek 9 (in-person)\nPutting It All Together: Reproducible Analysis with Quarto\n26/01\n\n\nWeek 10\nYour project presentation\n11/03\n\n\n\n\nAnalyse de données scRNAseq (mars à juin 2026) – 10 sessions de 3 heures – 2000 €\nApprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques. Vous travaillerez d’abord sur un jeu de données fourni, puis sur vos propres données, avec un retour personnalisé sur votre projet. Cette formation requiert une bonne maîtrise de R.\n\n\n\n\nWeek\nSession\n\n\n\n\nWeek 1\nIntroduction\n\n\nWeek 2\nQuality Control & Normalisation\n\n\nWeek 3\nDimensionality Reduction\n\n\nWeek 4\nClustering (Part 1)\n\n\nWeek 5\nClustering (Part 2)\n\n\nWeek 6\nIngegration\n\n\nWeek 7\nAnnotation\n\n\nWeek 8\nMultiome\n\n\nWeek 9\nEnrichment Analysis\n\n\nWeek 10\nYour project presentation\n\n\n\nLa formation complète est proposée au tarif de 2500 €.\nPoints clés :\n\nSessions en petits groupes pour un apprentissage interactif et individualisé.\nMode hybride avec 3 sessions en présentiel et 7 à distance.\nMise en pratique avec un projet individualisé présenté à la fin de chaque formation.\nAccompagnement personnalisé avec feedback sur vos propres données.\nPlaces limitées, inscriptions déjà ouvertes.\n\n\nInscription est maintenant clôturée.\nN’hésitez pas à nous contacter si vous avez des questions !\n\n\n\nThe InforBio platform offers you online training in bioinformatics, in small groups, adapted to the needs of research laboratories. We offer a complete course over 6 months, organized in two complementary modules.\nTraining Program\n\nIntroduction to R for data analysis (November 2025 to January 2026) – 10 sessions of 3 hours – €800\nThis course covers the basics of R, data organization and filtering, basic statistics, and creation of publication-ready graphics. The goal is to make you self-sufficient in using R for your own analyses.\n\n\n\n\n\n\n\n\n\nWeek\nSession\nPlanned Week\n\n\n\n\nWeek 1 (in-person)\nKickstart with R: Your Gateway to Data Science\n03/11\n\n\nWeek 2\nData Foundations: Vectors and Matrices\n10/11\n\n\nWeek 3\nMore Complex Data Structures: Data Frames and Lists\n17/11\n\n\nWeek 4\nBuilding Logic: Operators, Conditions and Functions\n24/11\n\n\nWeek 5 (in-person)\nGraphing with {ggplot2} (Part 1)\n01/12\n\n\nWeek 6\nR-fresh: Revisiting the Essentials\n05/01\n\n\nWeek 7\nTidy Up: Wrangling Data with {dplyr} and {tidyr}\n12/01\n\n\nWeek 8\nGraphs Level Up: {ggplot2} (Part 2) & Custom Functions\n19/01\n\n\nWeek 9 (in-person)\nPutting It All Together: Reproducible Analysis with Quarto\n26/01\n\n\nWeek 10\nYour project presentation\n11/03\n\n\n\n\nscRNAseq Data Analysis (March to June 2026) – 10 sessions of 3 hours – €2000\nLearn how to analyze single-cell RNA sequencing data through practical examples. You’ll work on a provided dataset and receive personalized feedback on your own projects. This training requires a proficiency in R.\n\n\n\n\nWeek\nSession\n\n\n\n\nWeek 1\nIntroduction\n\n\nWeek 2\nQuality Control & Normalisation\n\n\nWeek 3\nDimensionality Reduction\n\n\nWeek 4\nClustering (Part 1)\n\n\nWeek 5\nClustering (Part 2)\n\n\nWeek 6\nIngegration\n\n\nWeek 7\nAnnotation\n\n\nWeek 8\nMultiome\n\n\nWeek 9\nEnrichment Analysis\n\n\nWeek 10\nYour project presentation\n\n\n\nThe complete training package is available for €2500.\nKey Highlights:\n\nSmall group sessions for interactive and personalized learning.\nHybrid mode with 3 in-person sessions and 7 remote sessions.\nHands-on practice with an individualized project presented at the end of each training course.\nTailored feedback on your own data.\nLimited spots available, registration is now open.\n\n\nRegistration is now closed.\nFeel free to reach out if you have any questions!"
+    "text": "news 1\nnews 2"
   },
   {
     "objectID": "content/services.html",
@@ -77,10 +77,10 @@
     "text": "Accelerate your omics analyses with InforBio. We provide biological researchers with statistical and bioinformatics expertise, analysis tools, and high performance computing resources. Our team covers a broad range of applications, with specific core expertise in transcriptomics and epigenetics."
   },
   {
-    "objectID": "content/ioc_bulk_rnaseq.html",
-    "href": "content/ioc_bulk_rnaseq.html",
-    "title": "IOC on bulk RNAseq analysis",
+    "objectID": "content/ioc_r_scrnaseq.html",
+    "href": "content/ioc_r_scrnaseq.html",
+    "title": "IOC R and scRNAseq trainings",
     "section": "",
-    "text": "Training on bulk RNAseq analysis with Galaxy is upcoming!"
+    "text": "Version FrançaiseEnglish Version\n\n\nLa plateforme InforBio vous propose des formations en bioinformatique en ligne, en petits groupes, adaptées aux besoins des laboratoires de recherche. Nous proposons un parcours complet sur 6 mois, organisé en deux modules complémentaires.\nProgramme de la formation\n\nIntroduction à R pour l’analyse de données (novembre 2025 à janvier 2026) – 10 sessions de 3 heures – 800 €\nDevenez autonome en R : maîtriser les fondamentaux, l’organisation et filtrage de données, les analyses statistiques de base, et la création de graphiques prêts pour publication. Aucun pré-requis.\n\n\n\n\n\n\n\n\n\nWeek\nSession\nSemaine Prévue\n\n\n\n\nWeek 1 (in-person)\nKickstart with R: Your Gateway to Data Science\n03/11\n\n\nWeek 2\nData Foundations: Vectors and Matrices\n10/11\n\n\nWeek 3\nMore Complex Data Structures: Data Frames and Lists\n17/11\n\n\nWeek 4\nBuilding Logic: Operators, Conditions and Functions\n24/11\n\n\nWeek 5 (in-person)\nGraphing with {ggplot2} (Part 1)\n01/12\n\n\nWeek 6\nR-fresh: Revisiting the Essentials\n05/01\n\n\nWeek 7\nTidy Up: Wrangling Data with {dplyr} and {tidyr}\n12/01\n\n\nWeek 8\nGraphs Level Up: {ggplot2} (Part 2) & Custom Functions\n19/01\n\n\nWeek 9 (in-person)\nPutting It All Together: Reproducible Analysis with Quarto\n26/01\n\n\nWeek 10\nYour project presentation\n11/03\n\n\n\n\nAnalyse de données scRNAseq (mars à juin 2026) – 10 sessions de 3 heures – 2000 €\nApprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques. Vous travaillerez d’abord sur un jeu de données fourni, puis sur vos propres données, avec un retour personnalisé sur votre projet. Cette formation requiert une bonne maîtrise de R.\n\n\n\n\nWeek\nSession\n\n\n\n\nWeek 1\nIntroduction\n\n\nWeek 2\nQuality Control & Normalisation\n\n\nWeek 3\nDimensionality Reduction\n\n\nWeek 4\nClustering (Part 1)\n\n\nWeek 5\nClustering (Part 2)\n\n\nWeek 6\nIngegration\n\n\nWeek 7\nAnnotation\n\n\nWeek 8\nMultiome\n\n\nWeek 9\nEnrichment Analysis\n\n\nWeek 10\nYour project presentation\n\n\n\nLa formation complète est proposée au tarif de 2500 €.\nPoints clés :\n\nSessions en petits groupes pour un apprentissage interactif et individualisé.\nMode hybride avec 3 sessions en présentiel et 7 à distance.\nMise en pratique avec un projet individualisé présenté à la fin de chaque formation.\nAccompagnement personnalisé avec feedback sur vos propres données.\nPlaces limitées, inscriptions déjà ouvertes.\n\n\nInscription est maintenant clôturée.\nN’hésitez pas à nous contacter si vous avez des questions !\n\n\n\nThe InforBio platform offers you online training in bioinformatics, in small groups, adapted to the needs of research laboratories. We offer a complete course over 6 months, organized in two complementary modules.\nTraining program\n\nIntroduction to R for data analysis (November 2025 to January 2026) – 10 sessions of 3 hours – €800\nThis course covers the basics of R, data organization and filtering, basic statistics, and creation of publication-ready graphics. The goal is to make you self-sufficient in using R for your own analyses.\n\n\n\n\n\n\n\n\n\nWeek\nSession\nPlanned Week\n\n\n\n\nWeek 1 (in-person)\nKickstart with R: Your Gateway to Data Science\n03/11\n\n\nWeek 2\nData Foundations: Vectors and Matrices\n10/11\n\n\nWeek 3\nMore Complex Data Structures: Data Frames and Lists\n17/11\n\n\nWeek 4\nBuilding Logic: Operators, Conditions and Functions\n24/11\n\n\nWeek 5 (in-person)\nGraphing with {ggplot2} (Part 1)\n01/12\n\n\nWeek 6\nR-fresh: Revisiting the Essentials\n05/01\n\n\nWeek 7\nTidy Up: Wrangling Data with {dplyr} and {tidyr}\n12/01\n\n\nWeek 8\nGraphs Level Up: {ggplot2} (Part 2) & Custom Functions\n19/01\n\n\nWeek 9 (in-person)\nPutting It All Together: Reproducible Analysis with Quarto\n26/01\n\n\nWeek 10\nYour project presentation\n11/03\n\n\n\n\nscRNAseq data analysis (March to June 2026) – 10 sessions of 3 hours – €2000\nLearn how to analyze single-cell RNA sequencing data through practical examples. You’ll work on a provided dataset and receive personalized feedback on your own projects. This training requires a proficiency in R.\n\n\n\n\nWeek\nSession\n\n\n\n\nWeek 1\nIntroduction\n\n\nWeek 2\nQuality Control & Normalisation\n\n\nWeek 3\nDimensionality Reduction\n\n\nWeek 4\nClustering (Part 1)\n\n\nWeek 5\nClustering (Part 2)\n\n\nWeek 6\nIngegration\n\n\nWeek 7\nAnnotation\n\n\nWeek 8\nMultiome\n\n\nWeek 9\nEnrichment Analysis\n\n\nWeek 10\nYour project presentation\n\n\n\nThe complete training package is available for €2500.\nKey highlights:\n\nSmall group sessions for interactive and personalized learning.\nHybrid mode with 3 in-person sessions and 7 remote sessions.\nHands-on practice with an individualized project presented at the end of each training course.\nTailored feedback on your own data.\nLimited spots available, registration is now open.\n\n\nRegistration is now closed.\nFeel free to reach out if you have any questions!"
   }
 ]
