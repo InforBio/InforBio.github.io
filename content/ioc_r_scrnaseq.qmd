@@ -14,26 +14,29 @@ Nous proposons un parcours complet sur 6 mois, organisé en deux modules complé
 
 **Programme de la formation**
 
-- **Introduction à R pour l’analyse de données** (novembre 2025 à janvier 2026) – **10 sessions de 3 heures** – **800 €**
+- **Introduction à R pour l’analyse de données** (octobre à décembre 2026) – **10 sessions de 3 heures** – **800 €**
 
   Devenez autonome en R : maîtriser les fondamentaux,
   l’organisation et filtrage de données, les analyses statistiques de base,
   et la création de graphiques prêts pour publication. Aucun pré-requis.
 
-| **Week**               | **Session**                                                   | **Semaine Prévue** |
-|------------------------|---------------------------------------------------------------| -----------|
-| **Week 1 (in-person)** | Kickstart with R: Your Gateway to Data Science                |  03/11     |
-| Week 2                 | Data Foundations: Vectors and Matrices                        |  10/11     |
-| Week 3                 | More Complex Data Structures: Data Frames and Lists           |  17/11     |
-| Week 4                 | Building Logic: Operators, Conditions and Functions           |  24/11     |
-| **Week 5 (in-person)** | Graphing with {`ggplot2`}  (Part 1)                           |  01/12     |
-| Week 6                 | R-fresh: Revisiting the Essentials                            |  05/01     |
-| Week 7                 | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  12/01     |
-| Week 8                 | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  19/01     |
-| **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |  26/01     |
-| Week 10                | Your project presentation                                     |  11/03 |
+| **Session**  | **Thème**                                           | **Date Prévue** |
+|---------- |-------------------------------------------------------| -----------|
+| 1    | Kickstart with R: Your Gateway to Data Science                |  02/10/2026     |
+| 2    | Data Foundations: Vectors and Matrices                        |  09/10/2026     |
+| 3    | More Complex Data Structures: Data Frames and Lists           |  16/10/2026     |
+| \-\-\-    |   Pause Toussaint |  \-\-\-     |
+| 4    | Building Logic: Operators, Conditions and Functions           |  06/11/2026     |
+| 5    | Graphing with {`ggplot2`}  (Part 1)                           |  13/11/2026     |
+| \-\-\-    |  Pause |  \-\-\-     |
+| 6    | R-fresh: Revisiting the Essentials                            |  27/11/2026     |
+| 7    | Putting It All Together: Reproducible Analysis with Quarto    |  04/12/2026     |
+| 8    | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  11/12/2026     |
+| 9    | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  18/12/2026     |
+| \-\-\-    |  Pause Noël |  \-\-\-     |
+| 10   | Your project presentation                                     |  TBD     |
 
-- **Analyse de données scRNAseq** (mars à juin 2026) – **10 sessions de 3 heures** – **2000 €**
+- **Analyse de données scRNAseq** (mars à juin 2027) – **12 sessions de 3 heures** – **2000 €**
 
   Apprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques.
   Vous travaillerez d'abord sur un jeu de données fourni,
@@ -41,32 +44,36 @@ Nous proposons un parcours complet sur 6 mois, organisé en deux modules complé
   Cette formation requiert une bonne maîtrise de R.
 
 
-| **Week** | **Session**                      |
-|----------|----------------------------------|
-| Week 1   | Introduction                     |
-| Week 2   | Quality Control & Normalisation  |
-| Week 3   | Dimensionality Reduction         |
-| Week 4   | Clustering (Part 1)              |
-| Week 5   | Clustering (Part 2)              |
-| Week 6   | Ingegration                      |
-| Week 7   | Annotation                       |
-| Week 8   | Multiome                         |
-| Week 9   | Enrichment Analysis              |
-| Week 10  | Your project presentation        |
+| **Session** | **Thème**                      | **Prévue en 2027** |
+|----------|----------------------------------|--------------------|
+| 1   | Introduction to Single-cell RNA-seq and Analysis Workflow | semaine 9 |
+| 2   | From fastq to counts (1)  | semaine 10 |
+| 3   | From fastq to counts (2)         | semaine 11 |
+| 4   | Quality Control and Normalization              | semaine 12 |
+| 5   | Dimensionality Reduction | semaine 13 |
+| \-\-\-    |  Pause |  \-\-\-     |
+| 6   | Clustering and Marker Identification | semaine 16 |
+| 7   | Cell Type Annotation                       | semaine 17 |
+| \-\-\-    |  Pause |  \-\-\-     |
+| 8   | Integration                         | semaine 19 |
+| \-\-\-    |  Pause |  \-\-\-     |
+| 9   | Exploratory Analysis (1) DE - Enrichment           | semaine 21 |
+| 10  | Exploratory Analysis (2) DE - Enrichment           | semaine 22 |
+| 11  | Multiome | semaine 23 |
+| 12  | Your project presentation        | TBD |
 
 La formation complète est proposée au tarif de **2500 €**.
 
 **Points clés** :
 
 - **Sessions en petits groupes** pour un apprentissage interactif et individualisé.
-- **Mode hybride** avec 3 sessions en présentiel et 7 à distance.
 - **Mise en pratique** avec un projet individualisé présenté à la fin de chaque formation.
 - **Accompagnement personnalisé** avec feedback sur vos propres données.
 - **Places limitées**, inscriptions déjà ouvertes.
 
 <!-- 👉Inscription en ligne : [lien](https://docs.google.com/forms/d/e/1FAIpQLSeu9Y8LRxIx1ZKT7yKdzYMduZumRe5Nov4T0JbUPN0f21daQA/viewform?usp=sharing&ouid=107366283096380377724){target="_blank"} -->
 
-**Inscription est maintenant clôturée.**
+**Inscription va bientôt être ouverte.**
 
 N’hésitez pas à nous contacter si vous avez des questions !
 
@@ -82,43 +89,51 @@ We offer a complete course over 6 months, organized in two complementary modules
 
 **Training program**
 
-- **Introduction to R for data analysis** (November 2025 to January 2026) – **10 sessions of 3 hours** – **€800**
+- **Introduction to R for data analysis** (October to December 2026) – **10 sessions of 3 hours** – **€800**
 
   This course covers the basics of R, data organization and filtering,
   basic statistics, and creation of publication-ready graphics.
   The goal is to make you self-sufficient in using R for your own analyses.
 
-| **Week**               | **Session**                                                   | **Planned Week** |
-|------------------------|---------------------------------------------------------------| ---------|
-| **Week 1 (in-person)** | Kickstart with R: Your Gateway to Data Science                |  03/11   |
-| Week 2                 | Data Foundations: Vectors and Matrices                        |  10/11   |
-| Week 3                 | More Complex Data Structures: Data Frames and Lists           |  17/11   |
-| Week 4                 | Building Logic: Operators, Conditions and Functions           |  24/11   |
-| **Week 5 (in-person)** | Graphing with {`ggplot2`}  (Part 1)                           |  01/12   |
-| Week 6                 | R-fresh: Revisiting the Essentials                            |  05/01   |
-| Week 7                 | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  12/01   |
-| Week 8                 | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  19/01   |
-| **Week 9 (in-person)** | Putting It All Together: Reproducible Analysis with Quarto    |  26/01   |
-| Week 10                | Your project presentation                                     |  11/03     |
+| **Session**        | **Topic**                           | **Planned Date** |
+|------------------------|----------------------------------------------| ---------|
+|  1    | Kickstart with R: Your Gateway to Data Science                |  02/10/2026 |
+|  2    | Data Foundations: Vectors and Matrices                        |  09/10/2026 |
+|  3    | More Complex Data Structures: Data Frames and Lists           |  16/10/2026 |
+| \-\-\-    |   Pause Toussaint |  \-\-\-     |
+|  4    | Building Logic: Operators, Conditions and Functions           |  06/11/2026 |
+|  5    | Graphing with {`ggplot2`}  (Part 1)                           |  13/11/2026 |
+| \-\-\-    |  Pause |  \-\-\-     |
+|  6    | R-fresh: Revisiting the Essentials                            |  27/11/2026 |
+|  7    | Putting It All Together: Reproducible Analysis with Quarto    |  04/12/2026 |
+|  8    | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  11/12/2026 |
+|  9    | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  18/12/2026 |
+| \-\-\-    |  Pause Noël |  \-\-\-     |
+|  10   | Your project presentation                                     |  TBD     |
   
-- **scRNAseq data analysis** (March to June 2026) – **10 sessions of 3 hours** – **€2000**
+- **scRNAseq data analysis** (March to June 2027) – **12 sessions of 3 hours** – **€2000**
 
   Learn how to analyze single-cell RNA sequencing data through practical examples.
   You'll work on a provided dataset and receive personalized feedback on your own projects.
   This training requires a proficiency in R.
 
-| **Week** | **Session**                      |
-|----------|----------------------------------|
-| Week 1   | Introduction                     |
-| Week 2   | Quality Control & Normalisation  |
-| Week 3   | Dimensionality Reduction         |
-| Week 4   | Clustering (Part 1)              |
-| Week 5   | Clustering (Part 2)              |
-| Week 6   | Ingegration                      |
-| Week 7   | Annotation                       |
-| Week 8   | Multiome                         |
-| Week 9   | Enrichment Analysis              |
-| Week 10  | Your project presentation        |
+| **Session** | **Topic**                      | **Planned 2027** |
+|----------|----------------------------------|--------------------|
+|  1   | Introduction to Single-cell RNA-seq and Analysis Workflow | week 9 |
+|  2   | From fastq to counts (1)  | week 10 |
+|  3   | From fastq to counts (2)         | week 11 |
+|  4   | Quality Control and Normalization              | week 12 |
+|  5   | Dimensionality Reduction | week 13 |
+| \-\-\-    |  Pause |  \-\-\-     |
+|  6   | Clustering and Marker Identification | week 16 |
+|  7   | Cell Type Annotation                       | week 17 |
+| \-\-\-    |  Pause |  \-\-\-     |
+|  8   | Integration                         | week 19 |
+| \-\-\-    |  Pause |  \-\-\-     |
+|  9   | Exploratory Analysis (1) DE - Enrichment           | week 21 |
+|  10  | Exploratory Analysis (2) DE - Enrichment           | week 22 |
+|  11  | Multiome | week 23 |
+|  12  | Your project presentation        | TBD |
 
 
 The complete training package is available for **€2500**.
@@ -126,14 +141,13 @@ The complete training package is available for **€2500**.
 **Key highlights**:
 
 - **Small group sessions** for interactive and personalized learning.
-- **Hybrid mode** with 3 in-person sessions and 7 remote sessions.
 - **Hands-on practice** with an individualized project presented at the end of each training course.
 - **Tailored feedback** on your own data.
 - **Limited spots available**, registration is now open.
 
 <!-- 👉 Register here : [link](https://docs.google.com/forms/d/e/1FAIpQLSeu9Y8LRxIx1ZKT7yKdzYMduZumRe5Nov4T0JbUPN0f21daQA/viewform?usp=sharing&ouid=107366283096380377724){target="_blank"} -->
 
-**Registration is now closed.**
+**Registration will open soon.**
 
 Feel free to reach out if you have any questions!
 
