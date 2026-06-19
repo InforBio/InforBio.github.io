@@ -25,7 +25,7 @@ Nous proposons un parcours complet sur 6 mois, organisé en deux modules complé
 | 1    | Kickstart with R: Your Gateway to Data Science                |  02/10/2026     |
 | 2    | Data Foundations: Vectors and Matrices                        |  09/10/2026     |
 | 3    | More Complex Data Structures: Data Frames and Lists           |  16/10/2026     |
-| \-\-\-    |   Pause Toussaint |  \-\-\-     |
+| \-\-\-    |   Pause |  \-\-\-     |
 | 4    | Building Logic: Operators, Conditions and Functions           |  06/11/2026     |
 | 5    | Graphing with {`ggplot2`}  (Part 1)                           |  13/11/2026     |
 | \-\-\-    |  Pause |  \-\-\-     |
@@ -33,7 +33,6 @@ Nous proposons un parcours complet sur 6 mois, organisé en deux modules complé
 | 7    | Putting It All Together: Reproducible Analysis with Quarto    |  04/12/2026     |
 | 8    | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  11/12/2026     |
 | 9    | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  18/12/2026     |
-| \-\-\-    |  Pause Noël |  \-\-\-     |
 | 10   | Your project presentation                                     |  TBD     |
 
 - **Analyse de données scRNAseq** (mars à juin 2027) – **12 sessions de 3 heures** – **2000 €**
@@ -100,15 +99,14 @@ We offer a complete course over 6 months, organized in two complementary modules
 |  1    | Kickstart with R: Your Gateway to Data Science                |  02/10/2026 |
 |  2    | Data Foundations: Vectors and Matrices                        |  09/10/2026 |
 |  3    | More Complex Data Structures: Data Frames and Lists           |  16/10/2026 |
-| \-\-\-    |   Pause Toussaint |  \-\-\-     |
+| \-\-\-    |   Break |  \-\-\-     |
 |  4    | Building Logic: Operators, Conditions and Functions           |  06/11/2026 |
 |  5    | Graphing with {`ggplot2`}  (Part 1)                           |  13/11/2026 |
-| \-\-\-    |  Pause |  \-\-\-     |
+| \-\-\-    |  Break |  \-\-\-     |
 |  6    | R-fresh: Revisiting the Essentials                            |  27/11/2026 |
 |  7    | Putting It All Together: Reproducible Analysis with Quarto    |  04/12/2026 |
 |  8    | Graphs Level Up: {`ggplot2`} (Part 2) & Custom Functions      |  11/12/2026 |
 |  9    | Tidy Up: Wrangling Data with {`dplyr`} and {`tidyr`}          |  18/12/2026 |
-| \-\-\-    |  Pause Noël |  \-\-\-     |
 |  10   | Your project presentation                                     |  TBD     |
   
 - **scRNAseq data analysis** (March to June 2027) – **12 sessions of 3 hours** – **€2000**
@@ -124,12 +122,12 @@ We offer a complete course over 6 months, organized in two complementary modules
 |  3   | From fastq to counts (2)         | week 11 |
 |  4   | Quality Control and Normalization              | week 12 |
 |  5   | Dimensionality Reduction | week 13 |
-| \-\-\-    |  Pause |  \-\-\-     |
+| \-\-\-    |  Break |  \-\-\-     |
 |  6   | Clustering and Marker Identification | week 16 |
 |  7   | Cell Type Annotation                       | week 17 |
-| \-\-\-    |  Pause |  \-\-\-     |
+| \-\-\-    |  Break |  \-\-\-     |
 |  8   | Integration                         | week 19 |
-| \-\-\-    |  Pause |  \-\-\-     |
+| \-\-\-    |  Break |  \-\-\-     |
 |  9   | Exploratory Analysis (1) DE - Enrichment           | week 21 |
 |  10  | Exploratory Analysis (2) DE - Enrichment           | week 22 |
 |  11  | Multiome | week 23 |
