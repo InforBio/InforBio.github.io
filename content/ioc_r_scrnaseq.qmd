@@ -56,8 +56,8 @@ Nous proposons un parcours complet sur 6 mois, organisé en deux modules complé
 | \-\-\-    |  Pause |  \-\-\-     |
 | 8   | Integration                         | semaine 19 |
 | \-\-\-    |  Pause |  \-\-\-     |
-| 9   | Exploratory Analysis (1) DE - Enrichment           | semaine 21 |
-| 10  | Exploratory Analysis (2) DE - Enrichment           | semaine 22 |
+| 9   | Exploratory Analysis (1) Enrichment           | semaine 21 |
+| 10  | Exploratory Analysis (2) Communication Cellulaire/Trajectoires           | semaine 22 |
 | 11  | Multiome | semaine 23 |
 | 12  | Your project presentation        | TBD |
 
@@ -127,8 +127,8 @@ We offer a complete course over 6 months, organized in two complementary modules
 | \-\-\-    |  Break |  \-\-\-     |
 |  8   | Integration                         | week 19 |
 | \-\-\-    |  Break |  \-\-\-     |
-|  9   | Exploratory Analysis (1) DE - Enrichment           | week 21 |
-|  10  | Exploratory Analysis (2) DE - Enrichment           | week 22 |
+|  9   | Exploratory Analysis (1) Enrichment           | week 21 |
+|  10  | Exploratory Analysis (2) Cell2Cell Comunication/Trajectories           | week 22 |
 |  11  | Multiome | week 23 |
 |  12  | Your project presentation        | TBD |
 
