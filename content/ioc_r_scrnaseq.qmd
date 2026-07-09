@@ -128,7 +128,7 @@ We offer a complete course over 6 months, organized in two complementary modules
 |  8   | Integration                         | week 19 |
 | \-\-\-    |  Break |  \-\-\-     |
 |  9   | Exploratory Analysis (1) Enrichment           | week 21 |
-|  10  | Exploratory Analysis (2) Cell2Cell Comunication/Trajectories           | week 22 |
+|  10  | Exploratory Analysis (2) Cell2Cell Communication/Trajectories           | week 22 |
 |  11  | Multiome | week 23 |
 |  12  | Your project presentation        | TBD |
 
