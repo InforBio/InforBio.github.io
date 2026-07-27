@@ -1,12 +1,11 @@
 ---
-title: "What is IOC?"
+title: "What is IOT?"
 ---
 
-The **InforBio** platform has developed an "**Interactive Online Companionship**" (IOC)
-specifically tailored to initiate researchers into bioinformatics.
-The IOC involved one-to-many virtual work sessions where companions are trained to **analyze their own data**.
+The **I**nforBio **O**nline **T**raining (IOT) is a virtual training program specifically tailored to initiate researchers into bioinformatics.
+The IOT involved one-to-many virtual work sessions where companions are trained to **analyze their own data**.
 
-All IOC programs are structured into a series of modules,
+All IOT programs are structured into a series of modules,
 with each module building upon the knowledge and skills acquired in the
 previous one.
 One module lasts one week, during which companions dive into **online materials**
@@ -20,5 +19,5 @@ the week's material and address any questions.
 These videoconferences are recorded and made available for later viewing,
 ensuring continuous access to the learning resources.
 
-By the end of an IOC, companions will be equipped with expertise and
+By the end of an IOT, companions will be equipped with expertise and
 confidence to run their own analyses independently.

@@ -1,5 +1,5 @@
 ---
-title: "IOC R and scRNAseq trainings"
+title: "IOT R and scRNAseq trainings"
 format: html
 ---
 
