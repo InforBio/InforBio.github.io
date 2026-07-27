@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://InforBio.github.io/index.html</loc>
-    <lastmod>2026-07-09T09:09:02.071Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InforBio.github.io/content/ioc_bulk_rnaseq.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InforBio.github.io/content/ioc_r_scrnaseq.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
+    <loc>https://InforBio.github.io/content/services.html</loc>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
   </url>
   <url>
     <loc>https://InforBio.github.io/content/r2d_training.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InforBio.github.io/content/short_lectures.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InforBio.github.io/content/services.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InforBio.github.io/content/what_is_ioc.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
   </url>
   <url>
     <loc>https://InforBio.github.io/content/news.html</loc>
-    <lastmod>2026-07-09T09:09:02.069Z</lastmod>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InforBio.github.io/content/iot_bulk_rnaseq.html</loc>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InforBio.github.io/index.html</loc>
+    <lastmod>2026-07-27T15:16:02.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InforBio.github.io/content/what_is_iot.html</loc>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InforBio.github.io/content/iot_r_scrnaseq.html</loc>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InforBio.github.io/content/short_lectures.html</loc>
+    <lastmod>2026-07-27T15:16:02.409Z</lastmod>
   </url>
 </urlset>

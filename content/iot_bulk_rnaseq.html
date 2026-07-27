@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IOC R and scRNAseq trainings</title>
+<title>IOT on bulk RNAseq analysis</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,16 +110,16 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-trainings">    
         <li>
-    <a class="dropdown-item" href="../content/what_is_ioc.html">
- <span class="dropdown-text">What is IOC?</span></a>
+    <a class="dropdown-item" href="../content/what_is_iot.html">
+ <span class="dropdown-text">What is IOT?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../content/ioc_r_scrnaseq.html">
- <span class="dropdown-text">IOC R &amp; scRNAseq</span></a>
+    <a class="dropdown-item" href="../content/iot_r_scrnaseq.html">
+ <span class="dropdown-text">IOT R &amp; scRNAseq</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../content/ioc_bulk_rnaseq.html">
- <span class="dropdown-text">IOC Bulk RNAseq</span></a>
+    <a class="dropdown-item" href="../content/iot_bulk_rnaseq.html">
+ <span class="dropdown-text">IOT Bulk RNAseq</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../content/r2d_training.html">
@@ -152,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IOC R and scRNAseq trainings</h1>
+<h1 class="title">IOT on bulk RNAseq analysis</h1>
 </div>
 
 
@@ -169,391 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Version Française</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">English Version</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>La plateforme InforBio vous propose des formations en bioinformatique en ligne, en petits groupes, adaptées aux besoins des laboratoires de recherche. Nous proposons un parcours complet sur 6 mois, organisé en deux modules complémentaires.</p>
-<p><strong>Programme de la formation</strong></p>
-<ul>
-<li><p><strong>Introduction à R pour l’analyse de données</strong> (octobre à décembre 2026) – <strong>10 sessions de 3 heures</strong> – <strong>800 €</strong></p>
-<p>Devenez autonome en R : maîtriser les fondamentaux, l’organisation et filtrage de données, les analyses statistiques de base, et la création de graphiques prêts pour publication. Aucun pré-requis.</p></li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 13%">
-<col style="width: 72%">
-<col style="width: 14%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Session</strong></th>
-<th><strong>Thème</strong></th>
-<th><strong>Date Prévue</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Kickstart with R: Your Gateway to Data Science</td>
-<td>02/10/2026</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Data Foundations: Vectors and Matrices</td>
-<td>09/10/2026</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>More Complex Data Structures: Data Frames and Lists</td>
-<td>16/10/2026</td>
-</tr>
-<tr class="even">
-<td>---</td>
-<td>Pause</td>
-<td>---</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Building Logic: Operators, Conditions and Functions</td>
-<td>06/11/2026</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Graphing with {<code>ggplot2</code>} (Part 1)</td>
-<td>13/11/2026</td>
-</tr>
-<tr class="odd">
-<td>---</td>
-<td>Pause</td>
-<td>---</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>R-fresh: Revisiting the Essentials</td>
-<td>27/11/2026</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Putting It All Together: Reproducible Analysis with Quarto</td>
-<td>04/12/2026</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Graphs Level Up: {<code>ggplot2</code>} (Part 2) &amp; Custom Functions</td>
-<td>11/12/2026</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Tidy Up: Wrangling Data with {<code>dplyr</code>} and {<code>tidyr</code>}</td>
-<td>18/12/2026</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Your project presentation</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><p><strong>Analyse de données scRNAseq</strong> (mars à juin 2027) – <strong>12 sessions de 3 heures</strong> – <strong>2000 €</strong></p>
-<p>Apprenez à analyser des données de séquençage ARN en cellules uniques grâce à des cas pratiques. Vous travaillerez d’abord sur un jeu de données fourni, puis sur vos propres données, avec un retour personnalisé sur votre projet. Cette formation requiert une bonne maîtrise de R.</p></li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 53%">
-<col style="width: 31%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Session</strong></th>
-<th><strong>Thème</strong></th>
-<th><strong>Prévue en 2027</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Introduction to Single-cell RNA-seq and Analysis Workflow</td>
-<td>semaine 9</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>From fastq to counts (1)</td>
-<td>semaine 10</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>From fastq to counts (2)</td>
-<td>semaine 11</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Quality Control and Normalization</td>
-<td>semaine 12</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Dimensionality Reduction</td>
-<td>semaine 13</td>
-</tr>
-<tr class="even">
-<td>---</td>
-<td>Pause</td>
-<td>---</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Clustering and Marker Identification</td>
-<td>semaine 16</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Cell Type Annotation</td>
-<td>semaine 17</td>
-</tr>
-<tr class="odd">
-<td>---</td>
-<td>Pause</td>
-<td>---</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Integration</td>
-<td>semaine 19</td>
-</tr>
-<tr class="odd">
-<td>---</td>
-<td>Pause</td>
-<td>---</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Exploratory Analysis (1) Enrichment</td>
-<td>semaine 21</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Exploratory Analysis (2) Communication Cellulaire/Trajectoires</td>
-<td>semaine 22</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Multiome</td>
-<td>semaine 23</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>Your project presentation</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<p>La formation complète est proposée au tarif de <strong>2500 €</strong>.</p>
-<p><strong>Points clés</strong> :</p>
-<ul>
-<li><strong>Sessions en petits groupes</strong> pour un apprentissage interactif et individualisé.</li>
-<li><strong>Mise en pratique</strong> avec un projet individualisé présenté à la fin de chaque formation.</li>
-<li><strong>Accompagnement personnalisé</strong> avec feedback sur vos propres données.</li>
-<li><strong>Places limitées</strong>, inscriptions déjà ouvertes.</li>
-</ul>
-<p>👉Inscription en ligne : <a href="https://forms.gle/tLhA4QLwosUt2oxQ6" target="_blank">lien</a></p>
-<p>N’hésitez pas à nous contacter si vous avez des questions !</p>
-<p><img src="images/email_inforbio.png" class="img-fluid" width="300"></p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>The InforBio platform offers you online training in bioinformatics, in small groups, adapted to the needs of research laboratories. We offer a complete course over 6 months, organized in two complementary modules.</p>
-<p><strong>Training program</strong></p>
-<ul>
-<li><p><strong>Introduction to R for data analysis</strong> (October to December 2026) – <strong>10 sessions of 3 hours</strong> – <strong>€800</strong></p>
-<p>This course covers the basics of R, data organization and filtering, basic statistics, and creation of publication-ready graphics. The goal is to make you self-sufficient in using R for your own analyses.</p></li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 58%">
-<col style="width: 11%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Session</strong></th>
-<th><strong>Topic</strong></th>
-<th><strong>Planned Date</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Kickstart with R: Your Gateway to Data Science</td>
-<td>02/10/2026</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Data Foundations: Vectors and Matrices</td>
-<td>09/10/2026</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>More Complex Data Structures: Data Frames and Lists</td>
-<td>16/10/2026</td>
-</tr>
-<tr class="even">
-<td>---</td>
-<td>Break</td>
-<td>---</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Building Logic: Operators, Conditions and Functions</td>
-<td>06/11/2026</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Graphing with {<code>ggplot2</code>} (Part 1)</td>
-<td>13/11/2026</td>
-</tr>
-<tr class="odd">
-<td>---</td>
-<td>Break</td>
-<td>---</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>R-fresh: Revisiting the Essentials</td>
-<td>27/11/2026</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Putting It All Together: Reproducible Analysis with Quarto</td>
-<td>04/12/2026</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Graphs Level Up: {<code>ggplot2</code>} (Part 2) &amp; Custom Functions</td>
-<td>11/12/2026</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Tidy Up: Wrangling Data with {<code>dplyr</code>} and {<code>tidyr</code>}</td>
-<td>18/12/2026</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Your project presentation</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><p><strong>scRNAseq data analysis</strong> (March to June 2027) – <strong>12 sessions of 3 hours</strong> – <strong>€2000</strong></p>
-<p>Learn how to analyze single-cell RNA sequencing data through practical examples. You’ll work on a provided dataset and receive personalized feedback on your own projects. This training requires a proficiency in R.</p></li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 53%">
-<col style="width: 31%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Session</strong></th>
-<th><strong>Topic</strong></th>
-<th><strong>Planned 2027</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Introduction to Single-cell RNA-seq and Analysis Workflow</td>
-<td>week 9</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>From fastq to counts (1)</td>
-<td>week 10</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>From fastq to counts (2)</td>
-<td>week 11</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Quality Control and Normalization</td>
-<td>week 12</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Dimensionality Reduction</td>
-<td>week 13</td>
-</tr>
-<tr class="even">
-<td>---</td>
-<td>Break</td>
-<td>---</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Clustering and Marker Identification</td>
-<td>week 16</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Cell Type Annotation</td>
-<td>week 17</td>
-</tr>
-<tr class="odd">
-<td>---</td>
-<td>Break</td>
-<td>---</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Integration</td>
-<td>week 19</td>
-</tr>
-<tr class="odd">
-<td>---</td>
-<td>Break</td>
-<td>---</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Exploratory Analysis (1) Enrichment</td>
-<td>week 21</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Exploratory Analysis (2) Cell2Cell Communication/Trajectories</td>
-<td>week 22</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Multiome</td>
-<td>week 23</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>Your project presentation</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<p>The complete training package is available for <strong>€2500</strong>.</p>
-<p><strong>Key highlights</strong>:</p>
-<ul>
-<li><strong>Small group sessions</strong> for interactive and personalized learning.</li>
-<li><strong>Hands-on practice</strong> with an individualized project presented at the end of each training course.</li>
-<li><strong>Tailored feedback</strong> on your own data.</li>
-<li><strong>Limited spots available</strong>, registration is now open.</li>
-</ul>
-<p>👉 Register here: <a href="https://forms.gle/tLhA4QLwosUt2oxQ6" target="_blank">link</a></p>
-<p>Feel free to reach out if you have any questions!</p>
-<p><img src="images/email_inforbio.png" class="img-fluid" width="300"></p>
-</div>
-</div>
-</div>
+<p>Training on bulk RNAseq analysis with Galaxy is upcoming!</p>
 
 
 
