@@ -20,12 +20,12 @@ website:
         text: "Services"
       - text: "Trainings"
         menu: 
-          - text: "What is IOC?"
-            href: content/what_is_ioc.qmd
-          - text: "IOC R & scRNAseq"
-            href: content/ioc_r_scrnaseq.qmd
-          - text: "IOC Bulk RNAseq"
-            href: content/ioc_bulk_rnaseq.qmd
+          - text: "What is IOT?"
+            href: content/what_is_iot.qmd
+          - text: "IOT R & scRNAseq"
+            href: content/iot_r_scrnaseq.qmd
+          - text: "IOT Bulk RNAseq"
+            href: content/iot_bulk_rnaseq.qmd
           - text: "2-Day R training"
             href: content/r2d_training.qmd
       - href: content/short_lectures.qmd
