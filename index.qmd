@@ -34,9 +34,9 @@ icon storage pour serveur de stockage -->
 
 ## Members
 
-- Lorette Noiret - Scientific Head
-- Naïra Naouar - Operation Manager
-- Lijiao Ning - Engineer Statistician
-- Abdel Mounim Essabbar - Research Fellow 
-- Ivain Raslain - PhD Student
-- Joe Ueda - Bioinformatician
+- [Lorette Noiret](https://github.com/NoiretLorette) - Scientific Head
+- [Naïra Naouar](https://github.com/NairaNaouar) - Operation Manager
+- [Lijiao Ning](https://github.com/Ning-L) - Biostatistician
+- [Abdel Mounim Essabbar](https://github.com/mouneem) - Research Fellow 
+- [Ivain Raslain](https://github.com/ivain-r) - PhD Student
+- [Joe Ueda](https://github.com/jueda99) - Bioinformatician
