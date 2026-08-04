@@ -1,11 +1,11 @@
 ---
-title: "Short-Lectures Zoom"
+title: "Short Online Sessions (SOS)"
 toc: false
 ---
 
-The InforBio platform offers a series of "Short-Lectures" in Zoom (maximum 30 minutes) on tools and best practices in bioinformatics and biostatistics.
+The InforBio platform offers a series of **Short Online Sessions** (SOS) (maximum 30 minutes) on tools and best practices in bioinformatics and biostatistics.
 
-These "Short-Lectures" take place on Tuesday mornings at 9:30 a.m.
+These SOS take place on Tuesday mornings at 9:30 a.m.
 
 We'd love for you to join us, learn and share together, and grow with the community!
 
@@ -19,7 +19,7 @@ We'd love for you to join us, learn and share together, and grow with the commun
 
 ### Season 2026
 
-The new season of "Short-Lectures" will start in September 2026, co-organized by 3 Sorbonne University bioinformatics platforms: [InforBio](https://inforbio.github.io/)(IBPS), [ABiMS](https://abims.sb-roscoff.fr) (Roscoff) and [CAIBI](https://crcordeliers.fr/caibi/) (CRC).
+The new season of SOS will start in September 2026, co-organized by 3 Sorbonne University bioinformatics platforms: [InforBio](https://inforbio.github.io/)(IBPS), [ABiMS](https://abims.sb-roscoff.fr) (Roscoff) and [CAIBI](https://crcordeliers.fr/caibi/) (CRC).
 
 #### Autumn program
 
