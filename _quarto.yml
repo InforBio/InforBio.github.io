@@ -29,7 +29,7 @@ website:
           - text: "2-Day R training"
             href: content/r2d_training.qmd
       - href: content/short_lectures.qmd
-        text: "Short-Lectures Zoom"
+        text: "Mini-Talk Series"
       # - text: "News"
       #   href: content/news.qmd
       - icon: github
