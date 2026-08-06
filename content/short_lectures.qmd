@@ -1,35 +1,37 @@
 ---
-title: "Short Online Sessions (SOS)"
+title: "Mini-Talk Series"
 toc: false
 ---
 
-The InforBio platform offers a series of **Short Online Sessions** (SOS) (maximum 30 minutes) on tools and best practices in bioinformatics and biostatistics.
+The InforBio platform offers a series of **online** mini-talks (maximum 30 minutes) on tools and best practices in bioinformatics and biostatistics.
 
-These SOS take place on Tuesday mornings at 9:30 a.m.
+These mini-talks take place on **Tuesday mornings at 9:30 a.m**.
 
 We'd love for you to join us, learn and share together, and grow with the community!
 
-### Season 2025
-
-- 30/09: The IFB tools for biological data analysis (@Naïra Naouar)
-- 07/10: Introduction to R & RStudio (@Lijiao Ning)
-- 14/10: Best practices in data science project management (@Ivain Raslain)
-- 04/11: Principal Component Analysis (PCA) (@Lorette Noiret)
-- 18/11: Introduction to cell segmentation (@Abdelmounim Essabbar)
 
 ### Season 2026
 
-The new season of SOS will start in September 2026, co-organized by 3 Sorbonne University bioinformatics platforms: [InforBio](https://inforbio.github.io/)(IBPS), [ABiMS](https://abims.sb-roscoff.fr) (Roscoff) and [CAIBI](https://crcordeliers.fr/caibi/) (CRC).
+The new season of mini-talks will start in September 2026, co-organized by 3 Sorbonne University bioinformatics platforms: [InforBio](https://inforbio.github.io/)(IBPS), [ABiMS](https://abims.sb-roscoff.fr) (Roscoff) and [CAIBI](https://crcordeliers.fr/caibi/) (CRC).
 
 #### Autumn program
 
-- 08/09: The IFB tools for biological data analysis (@Naïra Naouar, InforBio)
-- 14/09: Best practices in data science project management (@Ivain Raslain, InforBio)
-- 29/09: How to code with AI (@Clarice Greoneveld, CAIBI)
-- 06/10: Introduction to Git (@Charlotte Berthelier, ABiMS)
-- 13/10: Case study - statisticla decision tree (@Lorette Noiret, InforBio)
+- 08/09: The IFB tools (@Naïra Naouar, InforBio)
+- 15/09: Project Management (@Ivain Raslain, InforBio)
+- 29/09: Coding with AI (@Clarice Greoneveld, CAIBI)
+- 06/10: Git for Beginners (@Charlotte Berthelier, ABiMS)
+- 13/10: Statistic Decision Tree (@Lorette Noiret, InforBio)
 
 #### Spring program
 
 Coming soon!
 
+---
+
+Previous mini-talks:
+
+- 30/09/2025: The IFB tools for biological data analysis (@Naïra Naouar)
+- 07/10/2025: Introduction to R & RStudio (@Lijiao Ning)
+- 14/10/2025: Best practices in data science project management (@Ivain Raslain)
+- 04/11/2025: Principal Component Analysis (PCA) (@Lorette Noiret)
+- 18/11/2025: Introduction to cell segmentation (@Abdelmounim Essabbar)
