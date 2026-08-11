@@ -1,0 +1,65 @@
+---
+title: "Privacy Policy"
+search: false
+---
+
+*Last updated: August 2026*
+
+## Who we are
+
+InforBio is a bioinformatics and statistics core facility located at the
+Institut de Biologie Paris-Seine, 7-9 Quai St Bernard, 75005 Paris, France.
+
+For any question regarding this policy or your personal data, contact us at:
+![](images/email_inforbio.png){width=280px}
+
+## What data we collect
+
+When you use the contact form on this website, we collect:
+
+- your name,
+- your email address,
+- the content of your message.
+
+We do not collect any other personal data through this form, and this website
+does not use advertising or tracking cookies.
+
+## Why we collect it (purpose and legal basis)
+
+The data submitted through the contact form is used **solely to respond to your
+request**. The legal basis for this processing is our legitimate interest
+(Article 6(1)(f) GDPR) in answering enquiries addressed to us.
+
+Your data is not used for marketing purposes, is not added to any newsletter or
+mailing list without your explicit consent, and is never sold or shared with
+third parties for their own purposes.
+
+## Who processes the data
+
+Form submissions are handled by **Forminit**, a form-processing service acting
+as our data processor. Submissions are stored encrypted on servers located in
+the European Union (Ireland), and a data processing agreement (DPA) is in place
+in accordance with Article 28 GDPR.
+
+The content of your submission is then delivered by email to the members of the
+InforBio team.
+
+## How long we keep it
+
+Form submissions and related email correspondence are kept only as long as
+necessary to handle your request, and are deleted at the latest **12 months**
+after our last exchange with you.
+
+## Your rights
+
+Under the GDPR (Règlement Général sur la Protection des Données), you have the
+right to:
+
+- access the personal data we hold about you,
+- ask for it to be corrected or deleted,
+- object to or request restriction of its processing,
+- lodge a complaint with the French supervisory authority, the
+  [CNIL](https://www.cnil.fr).
+
+To exercise any of these rights, write to us at
+![](images/email_inforbio.png){width=280px}. We will respond within one month.
