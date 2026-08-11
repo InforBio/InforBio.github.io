@@ -1,9 +1,10 @@
 ---
 title: "Privacy Policy"
 search: false
+engine: knitr
 ---
 
-*Last updated: August 2026*
+*Last updated: `r format(Sys.Date(), "%B %Y")`*
 
 ## Who we are
 
