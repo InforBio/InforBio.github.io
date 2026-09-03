@@ -1,3 +1,18 @@
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    css:
+      - styles.css
+      - styles_nodes.css
+      - trainings.css
+    title-block: false
+    include-before-body: landing-network.html
+
+
+
+
 project:
   type: website
   output-dir: docs/
@@ -36,11 +51,3 @@ website:
         href: https://github.com/InforBio/InforBio.github.io
 
 link-external-newwindow: true
-
-format:
-  html:
-    theme: cosmo
-    toc: true
-
-
-

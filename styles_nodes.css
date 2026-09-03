@@ -1,0 +1,1532 @@
+/* =========================================
+   PAGE
+   ========================================= */
+
+   #quarto-content {
+    padding: 0 !important;
+  }
+  
+  main.content {
+    padding: 0 !important;
+  }
+  
+  
+  /* =========================================
+     LANDING HERO
+     ========================================= */
+  
+  .landing-hero {
+    width: 100vw;
+  
+    aspect-ratio: 15 / 4;
+    height: 250px;
+    /* min-height: 400px; */
+  
+    margin-left: calc(50% - 50vw);
+    margin-top: 0;
+  
+    background-image: url("images/css/header.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    position: relative;
+  }
+  
+  
+  /* =========================================
+     HERO CONTENT
+     ========================================= */
+  
+  .hero-content {
+    width: 100%;
+    height: 100%;
+  
+    position: relative;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  /* =========================================
+     FLOATING NAVBAR
+     ========================================= */
+  
+  #quarto-header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+  
+    width: 100% !important;
+  
+    z-index: 9999 !important;
+  
+    transform: none !important;
+  }
+  
+  
+  /* Navbar before scrolling */
+  
+  #quarto-header .navbar {
+    background: transparent !important;
+  
+    padding: 1.2rem 2.5rem;
+  
+    box-shadow: none;
+  
+    transition:
+      background-color 0.35s ease,
+      padding 0.35s ease,
+      box-shadow 0.35s ease;
+  }
+  
+  
+  /* Navbar after scrolling */
+  
+  #quarto-header.headroom--not-top .navbar {
+    background: rgba(255, 255, 255, 0.96) !important;
+  
+    padding: 0.75rem 2.5rem;
+  
+    box-shadow:
+      0 4px 20px rgba(0, 0, 0, 0.18);
+  
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  
+  /* Prevent Headroom from hiding it */
+  
+  #quarto-header.headroom--unpinned,
+  #quarto-header.headroom--pinned,
+  #quarto-header.headroom--top,
+  #quarto-header.headroom--not-top {
+    transform: none !important;
+  }
+  
+  
+  /* =========================================
+     REMOVE QUARTO DEFAULT SPACING
+     ========================================= */
+  
+  body.nav-fixed {
+    padding-top: 0 !important;
+  }
+  
+  #title-block-header {
+    margin-block-end: 0 !important;
+  }
+  
+  #quarto-content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  
+  main {
+    margin-top: 0 !important;
+  }
+  
+  main.content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  
+  
+  /* =========================================
+     CONTENT AFTER LANDING
+     ========================================= */
+  
+  .landing-hero + h2 {
+    margin-top: 0 !important;
+  }
+  
+  
+
+/* =========================================
+   NETWORK CONTAINER
+   ========================================= */
+
+   .network-nodes {
+    position: absolute;
+    inset: 0;
+  
+    width: 100%;
+    height: 100%;
+  
+    z-index: 10;
+  
+    pointer-events: none;
+  }
+  
+  
+  /* =========================================
+     NETWORK NODE
+     ========================================= */
+  
+  .network-node {
+    position: absolute !important;
+  
+    left: 0;
+    top: 0;
+  
+    width: 56px;
+    height: 56px;
+  
+    padding: 0 !important;
+  
+    display: flex !important;
+  
+    align-items: center;
+    justify-content: flex-start;
+  
+    border-radius: 50%;
+  
+    color: white !important;
+  
+    text-decoration: none !important;
+  
+    white-space: nowrap;
+  
+    pointer-events: auto;
+  
+    overflow: hidden;
+  
+    box-sizing: border-box;
+  
+    box-shadow:
+      0 5px 18px rgba(30, 70, 110, 0.18);
+  
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+  
+    will-change: transform;
+  
+    /*
+     * IMPORTANT:
+     * JS controls transform.
+     * Never transition transform here.
+     */
+  
+    transition:
+      width 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+      border-radius 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+  
+  
+  /* =========================================
+     ICON
+     ========================================= */
+  
+  .network-node .node-icon {
+  
+    flex: 0 0 56px;
+  
+    width: 56px;
+    height: 56px;
+  
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  
+    margin: 0 !important;
+  
+    font-size: 0.85rem;
+    font-weight: 800;
+  
+    transition:
+      opacity 0.25s ease,
+      transform 0.35s ease;
+  }
+  
+  
+  /* =========================================
+     LABEL
+     ========================================= */
+  
+  .network-node .node-label {
+  
+    position: absolute;
+  
+    left: 56px;
+    top: 50%;
+  
+    transform:
+      translateY(-50%)
+      translateX(-10px);
+  
+    opacity: 0;
+  
+    font-size: 0.88rem;
+  
+    font-weight: 650;
+  
+    color: #183b56;
+  
+    transition:
+      opacity 0.2s ease 0.15s,
+      transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  
+    pointer-events: none;
+  }
+  
+  
+  /* =========================================
+     NORMAL NODE HOVER
+     ========================================= */
+  
+  .network-node:hover {
+  
+    width: 190px;
+  
+    border-radius: 999px;
+  
+    background:
+      rgba(255, 255, 255, 0.97);
+  
+    border-color:
+      rgba(35, 125, 185, 0.9);
+  
+    box-shadow:
+      0 10px 30px rgba(30, 90, 140, 0.3);
+  
+    color:
+      #075b91 !important;
+  
+    z-index: 100;
+  }
+  
+  
+  /* =========================================
+     NORMAL NODE LABEL
+     ========================================= */
+  
+  .network-node:hover .node-label {
+  
+    opacity: 1;
+  
+    transform:
+      translateY(-50%)
+      translateX(0);
+  }
+  
+  
+  /* =========================================
+     MAIN INFORBIO NODE
+     =========================================
+     
+     IMPORTANT:
+     This is NOT a circle anymore.
+  
+     No width/height limitation.
+     No background.
+     No border.
+     No shadow.
+     No clipping.
+     ========================================= */
+  
+  .network-node.node-main {
+  
+    position: absolute !important;
+  
+    width: auto !important;
+    height: auto !important;
+  
+    min-width: 0 !important;
+    min-height: 0 !important;
+  
+    padding: 0 !important;
+    margin: 0 !important;
+  
+    border: none !important;
+    border-radius: 0 !important;
+  
+    background: transparent !important;
+  
+    box-shadow: none !important;
+  
+    overflow: visible !important;
+  
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  
+    color: #ffffff !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    letter-spacing: -0.04em;
+  
+    display: flex !important;
+  
+    align-items: center;
+    justify-content: center;
+  
+    /*
+     * JS owns transform.
+     */
+    will-change: transform;
+  
+    transition:
+      none;
+
+  }
+  
+  
+  /* =========================================
+     REMOVE MAIN ICON
+     ========================================= */
+  
+  .network-node.node-main .node-icon {
+  
+    display: none !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  
+  }
+  
+  
+  /* =========================================
+     MAIN LOGO TEXT CONTAINER
+     ========================================= */
+  
+
+     .main-logo-text {
+
+        position: relative;
+      
+        display: inline-flex;
+      
+        align-items: center;
+        justify-content: center;
+      
+        width: max-content;
+        height: max-content;
+      
+        /* min-width: 130px;
+        min-height: 42px; */
+      
+        /* Logo-like serif font */
+        font-family:
+          Georgia,
+          "Times New Roman",
+          serif;
+      
+        font-size: 2rem;
+      
+        font-weight: 700;
+      
+        letter-spacing: -0.045em;
+      
+        white-space: nowrap;
+      
+        color: #ffffff;
+        
+        overflow: visible;
+        
+        cursor: pointer;
+    }
+    
+    
+    .network-node.node-main .logo-full,
+    .network-node.node-main .logo-word,
+    .network-node.node-main .logo-info,
+    .network-node.node-main .logo-for,
+    .network-node.node-main .logo-bio {
+        
+        font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+        
+        font-weight: 700;
+        
+        color: #ffffff;
+  letter-spacing: -0.045em;
+}
+  /* =========================================
+     FULL LOGO
+     ========================================= */
+  
+  .logo-full {
+  
+    display: inline-block;
+  
+    opacity: 1;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(1);
+  
+    transform-origin: center;
+  
+    transition:
+      opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  
+    transition-delay: 0.15s;
+  
+    will-change: transform, opacity;
+  }
+  
+  
+  /* =========================================
+     THREE PART VERSION
+     ========================================= */
+  
+  .logo-parts {
+  
+    position: absolute;
+  
+    left: 50%;
+    top: 50%;
+  
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  
+    width: max-content;
+  
+    transform:
+      translate(-50%, -50%);
+  
+    pointer-events: none;
+  
+    white-space: nowrap;
+  
+    opacity: 0;
+  
+    transition:
+      opacity 0.25s ease;
+  
+  }
+  
+  
+  /* =========================================
+     INDIVIDUAL WORDS
+     ========================================= */
+  
+  .logo-word {
+  
+    display: inline-block;
+  
+    position: relative;
+  
+    opacity: 0;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(0.65)
+      rotate(0deg);
+  
+    transform-origin: center;
+  
+    transition:
+      transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      opacity 0.4s ease,
+      color 0.35s ease;
+  
+    will-change:
+      transform,
+      opacity;
+  }
+  
+.network-node.node-main:hover .logo-info {
+    color: white !important;
+  }
+  
+  /* FOR — bright cyan accent */
+  .network-node.node-main:hover .logo-for {
+    color: #3867c4 !important;
+  }
+  
+  /* BIO — richer blue */
+  .network-node.node-main:hover .logo-bio {
+    color: #54e7f1 !important;
+  }
+
+  .network-node .node-label {
+    color: #ffffff !important;
+  }
+  
+  /* =========================================
+     HOVER — HIDE INFORBIO
+     ========================================= */
+  
+  .network-node.node-main:hover .logo-full {
+  
+    opacity: 0;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(0.55);
+  
+    transition-delay: 0s;
+  }
+  
+  
+  /* =========================================
+     HOVER — SHOW PARTS
+     ========================================= */
+  
+  .network-node.node-main:hover .logo-parts {
+  
+    opacity: 1;
+  
+    transition-delay: 0.12s;
+  }
+  
+  
+  /* =========================================
+     INFO
+     ========================================= */
+  
+  .network-node.node-main:hover .logo-info {
+  
+    opacity: 1;
+  
+    transform:
+      translate3d(-20px, -5px, 0)
+      scale(1)
+      rotate(-4deg);
+  
+    color: #176a91;
+  
+    transition-delay: 0.16s;
+  }
+  
+  
+  /* =========================================
+     FOR
+     ========================================= */
+  
+  .network-node.node-main:hover .logo-for {
+  
+    opacity: 1;
+  
+    transform:
+      translate3d(0, 7px, 0)
+      scale(1.15)
+      rotate(0deg);
+  
+    color: #299bb3;
+  
+    transition-delay: 0.24s;
+  }
+  
+  
+  /* =========================================
+     BIO
+     ========================================= */
+  
+  .network-node.node-main:hover .logo-bio {
+  
+    opacity: 1;
+  
+    transform:
+      translate3d(20px, -5px, 0)
+      scale(1)
+      rotate(4deg);
+  
+    color: #174f76;
+  
+    transition-delay: 0.32s;
+  }
+  
+  
+  /* =========================================
+     EXIT — PARTS RETURN TO CENTER
+     ========================================= */
+  
+  .network-node.node-main:not(:hover) .logo-parts {
+  
+    opacity: 0;
+  
+    transition-delay: 0.12s;
+  }
+  
+  
+  /* INFO → CENTER */
+  
+  .network-node.node-main:not(:hover) .logo-info {
+  
+    opacity: 0;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(0.65)
+      rotate(0deg);
+  
+    transition-delay: 0s;
+  }
+  
+  
+  /* FOR → CENTER */
+  
+  .network-node.node-main:not(:hover) .logo-for {
+  
+    opacity: 0;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(0.65)
+      rotate(0deg);
+  
+    transition-delay: 0.04s;
+  }
+  
+  
+  /* BIO → CENTER */
+  
+  .network-node.node-main:not(:hover) .logo-bio {
+  
+    opacity: 0;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(0.65)
+      rotate(0deg);
+  
+    transition-delay: 0.08s;
+  }
+  
+  
+  /* =========================================
+     REASSEMBLE INFORBIO
+     ========================================= */
+  
+  .network-node.node-main:not(:hover) .logo-full {
+  
+    opacity: 1;
+  
+    transform:
+      translate3d(0, 0, 0)
+      scale(1);
+  
+    transition-delay: 0.22s;
+  }
+  
+  
+  /* =========================================
+     MAIN NODE — NEVER EXPAND
+     ========================================= */
+  
+  .network-node.node-main:hover {
+  
+    width: auto !important;
+    height: auto !important;
+  
+    min-width: 0 !important;
+    min-height: 0 !important;
+  
+    padding: 0 !important;
+    margin: 0 !important;
+  
+    border: none !important;
+    border-radius: 0 !important;
+  
+    background: transparent !important;
+  
+    box-shadow: none !important;
+  
+    overflow: visible !important;
+  
+    filter: none !important;
+  
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  
+    z-index: 100;
+  }
+  
+  
+  /* =========================================
+     MAIN NODE PSEUDO ELEMENTS
+     ========================================= */
+  
+  .network-node.node-main::before,
+  .network-node.node-main::after {
+  
+    content: none !important;
+  
+    display: none !important;
+  }
+  
+  
+  /* =========================================
+     EDGES
+     ========================================= */
+  
+  .network-lines {
+  
+    position: absolute;
+  
+    inset: 0;
+  
+    width: 100%;
+    height: 100%;
+  
+    z-index: 5;
+  
+    pointer-events: none;
+  
+    overflow: visible;
+  }
+  
+  
+  .network-lines line {
+  
+    stroke:
+      rgba(35, 110, 165, 0.65);
+  
+    stroke-width:
+      2;
+  
+    vector-effect:
+      non-scaling-stroke;
+  
+    filter:
+      drop-shadow(
+        0 0 3px rgba(40, 130, 190, 0.35)
+      );
+  
+    transition:
+      opacity 0.3s ease;
+  }
+  
+  
+  /* =========================================
+     MOBILE
+     ========================================= */
+  
+  @media (max-width: 768px) {
+  
+    .network-node {
+  
+      width: 46px;
+      height: 46px;
+  
+      min-width: 46px;
+      min-height: 46px;
+    }
+  
+  
+    .network-node .node-icon {
+  
+      flex-basis: 46px;
+  
+      width: 46px;
+      height: 46px;
+    }
+  
+  
+    .network-node:hover {
+  
+      width: 155px;
+    }
+  
+  
+    /* Main logo stays unrestricted */
+  
+    .network-node.node-main {
+  
+      width: auto !important;
+      height: auto !important;
+  
+      min-width: 0 !important;
+      min-height: 0 !important;
+    }
+  
+  
+    .main-logo-text {
+  
+      font-size: 1.15rem;
+  
+      min-width: 110px;
+      min-height: 36px;
+    }
+  
+  }
+
+  /* =========================================
+   NODE CATEGORY COLORS — DEFAULT STATE
+   ========================================= */
+
+/* Bioinformatics — deep ocean blue */
+.network-node.node-bioinformatics {
+    background: linear-gradient(
+      135deg,
+      #0b3558,
+      #17658f
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* Bulk RNA-seq — blue */
+  .network-node.node-bulk {
+    background: linear-gradient(
+      135deg,
+      #126b91,
+      #2498b5
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* Single-cell RNA-seq — bright cyan */
+  .network-node.node-singlecell {
+    background: linear-gradient(
+      135deg,
+      #087f9d,
+      #23c0c7
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* Spatial Transcriptomics — turquoise */
+  .network-node.node-spatial {
+    background: linear-gradient(
+      135deg,
+      #087d82,
+      #28b4ae
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* ChiSeq — blue/teal */
+  .network-node.node-chiseq {
+    background: linear-gradient(
+      135deg,
+      #18536f,
+      #278fa0
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* Image Analysis — indigo */
+  .network-node.node-image {
+    background: linear-gradient(
+      135deg,
+      #384b91,
+      #6176c0
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* Data Visualization — violet blue */
+  .network-node.node-visualization {
+    background: linear-gradient(
+      135deg,
+      #514a91,
+      #7b72c5
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+  /* Training — lighter sky blue */
+  .network-node.node-training {
+    background: linear-gradient(
+      135deg,
+      #3e7898,
+      #79b9c9
+    ) !important;
+  
+    border: 1px solid rgba(255, 255, 255, 0.20);
+  
+    color: white !important;
+  }
+  
+  
+  /* =========================================
+     KEEP ICONS WHITE
+     ========================================= */
+  
+  .network-node:not(.node-main) .node-icon {
+    color: white !important;
+  
+    background: rgba(255, 255, 255, 0.08);
+  
+    border-radius: 50%;
+  }
+
+
+
+  /* =========================================================
+   CONTACT FORM — RESTORE STYLING
+   ========================================================= */
+
+.inforbio-contact {
+
+  width: 100%;
+  max-width: 620px;
+
+  margin-top: 2rem;
+
+}
+
+
+/* Form rows */
+
+.inforbio-contact > div {
+
+  margin-bottom: 1.4rem;
+
+}
+
+
+/* Labels */
+
+.inforbio-contact label {
+
+  display: block;
+
+  margin-bottom: 0.4rem;
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  color: #174f76;
+
+}
+
+
+/* Inputs */
+
+.inforbio-contact input,
+.inforbio-contact textarea {
+
+  display: block;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding:
+    0.8rem
+    0;
+
+  border: none;
+
+  border-bottom:
+    1px solid
+    rgba(23, 79, 118, 0.25);
+
+  border-radius: 0;
+
+  background: transparent;
+
+  outline: none;
+
+  box-shadow: none;
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 1rem;
+
+  line-height: 1.5;
+
+  color: #174f76;
+
+  transition:
+    border-color 0.3s ease;
+
+}
+
+
+/* Textarea */
+
+.inforbio-contact textarea {
+
+  min-height: 120px;
+
+  resize: vertical;
+
+}
+
+
+/* Focus */
+
+.inforbio-contact input:focus,
+.inforbio-contact textarea:focus {
+
+  border:
+    none;
+
+  border-bottom:
+    1px solid
+    #299bb3;
+
+  outline: none;
+
+  box-shadow: none;
+
+}
+
+
+/* Placeholder */
+
+.inforbio-contact input::placeholder,
+.inforbio-contact textarea::placeholder {
+
+  color: #9aabb5;
+
+}
+
+
+/* =========================================================
+   PRIVACY NOTE
+   ========================================================= */
+
+.inforbio-contact .privacy-note {
+
+  max-width: 620px;
+
+  margin-top: 1.5rem;
+
+  margin-bottom: 1rem;
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.72rem !important;
+
+  line-height: 1.5 !important;
+
+  color: #82939d !important;
+
+}
+
+
+.inforbio-contact .privacy-note a {
+
+  color: #299bb3;
+
+  text-decoration: none;
+
+}
+
+
+.inforbio-contact .privacy-note a:hover {
+
+  text-decoration: underline;
+
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.inforbio-contact button {
+
+  display: inline-block;
+
+  margin-top: 1rem;
+
+  padding:
+    0.9rem
+    1.5rem;
+
+  border: none;
+
+  border-radius: 999px;
+
+  background:
+    #174f76;
+
+  color: white;
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.9rem;
+
+  font-weight: 650;
+
+  line-height: 1.2;
+
+  cursor: pointer;
+
+  box-shadow: none;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+}
+
+
+.inforbio-contact button:hover {
+
+  background:
+    #299bb3;
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 8px 25px
+    rgba(23, 79, 118, 0.2);
+
+}
+
+
+/* =========================================================
+   QUARTO / BOOTSTRAP OVERRIDES
+   ========================================================= */
+
+.inforbio-contact p {
+
+  margin-top: 0;
+
+  margin-bottom: 0;
+
+}
+
+
+.inforbio-contact > div p {
+
+  margin: 0;
+
+}
+
+
+.inforbio-contact input[type="text"],
+.inforbio-contact input[type="email"] {
+
+  appearance: none;
+  -webkit-appearance: none;
+
+}
+
+
+.inforbio-contact textarea {
+
+  appearance: none;
+  -webkit-appearance: none;
+
+}
+
+
+
+/* =========================================================
+   CLICKABLE LISTS — RESTORE STYLING
+   ========================================================= */
+
+
+/* Remove Quarto paragraph spacing inside lists */
+
+.service-list > p,
+.member-list > p {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+/* =========================================================
+   SERVICE LIST
+   ========================================================= */
+
+.service-list {
+
+  width: 100%;
+
+  margin-top: 2rem;
+
+  border-top:
+    1px solid
+    rgba(23, 79, 118, 0.16);
+
+}
+
+
+.service-list a {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 1.2rem;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding:
+    0.9rem
+    0;
+
+  border-bottom:
+    1px solid
+    rgba(23, 79, 118, 0.12);
+
+  text-decoration: none !important;
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  color: #174f76 !important;
+
+  transition:
+    padding-left 0.35s ease,
+    color 0.3s ease;
+
+}
+
+
+.service-list a:hover {
+
+  padding-left: 12px;
+
+  color: #299bb3 !important;
+
+}
+
+
+.service-number {
+
+  flex: 0 0 25px;
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.68rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  color: #299bb3 !important;
+
+}
+
+
+/* =========================================================
+   TEAM / MEMBER LIST
+   ========================================================= */
+
+.member-list {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 0;
+
+  width: 100%;
+
+  margin-top: 2rem;
+
+  border-top:
+    1px solid
+    rgba(23, 79, 118, 0.15);
+
+}
+
+
+.member-list > p {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+.member-list a {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.25rem;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding:
+    1rem
+    1rem
+    1rem
+    0.5rem;
+
+  border-bottom:
+    1px solid
+    rgba(23, 79, 118, 0.12);
+
+  text-decoration: none !important;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+
+}
+
+
+.member-list a:hover {
+
+  transform:
+    translateX(6px);
+
+  background:
+    rgba(41, 155, 179, 0.035);
+
+}
+
+
+.member-list strong {
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  color: #174f76 !important;
+
+}
+
+
+.member-list span {
+
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+  font-size: 0.78rem;
+
+  color: #718794 !important;
+
+}
+
+
+/* =========================================================
+   PREVENT QUARTO / BOOTSTRAP LINK OVERRIDES
+   ========================================================= */
+
+.service-list a:visited,
+.member-list a:visited {
+
+  color: #174f76 !important;
+
+}
+
+
+.service-list a:hover,
+.member-list a:hover {
+
+  text-decoration: none !important;
+
+}
+
+
+.service-list a:focus,
+.member-list a:focus {
+
+  outline:
+    2px solid
+    rgba(41, 155, 179, 0.35);
+
+  outline-offset: 3px;
+
+}
+
+@media (max-width: 900px) {
+
+  .member-list {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+
+
+
+#quarto-content {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+#quarto-content > main.content {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#quarto-document-content {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Remove Quarto article width restrictions */
+.page-layout-full .content {
+  max-width: none !important;
+}
+
+/* Story itself */
+.story-page {
+  width: 100% !important;
+  max-width: 1600px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+}

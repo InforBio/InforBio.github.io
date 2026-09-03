@@ -10,3 +10,5 @@
 # Quarto files to ignore
 /docs/
 /.quarto/
+
+**/*.quarto_ipynb
