@@ -1,6 +1,8 @@
 ---
 title: "IOT R and scRNAseq trainings"
 format: html
+aliases:
+  - /content/ioc_r_scrnaseq.html
 ---
 
 ::: {.panel-tabset}
