@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3e9b1289f5f353c49b617ce48ad2bc38.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -363,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>👉Inscription en ligne : <a href="https://forms.gle/tLhA4QLwosUt2oxQ6" target="_blank">lien</a></p>
 <p>N’hésitez pas à nous contacter si vous avez des questions !</p>
-<p><img src="images/email_inforbio.png" class="img-fluid" width="300"></p>
+<a class="contact-email" href="#">[email]</a><noscript>inforbio [at] sorbonne-universite [dot] fr</noscript>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>The InforBio platform offers you online training in bioinformatics, in small groups, adapted to the needs of research laboratories. We offer a complete course over 6 months, organized in two complementary modules.</p>
@@ -553,7 +553,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>👉 Register here: <a href="https://forms.gle/tLhA4QLwosUt2oxQ6" target="_blank">link</a></p>
 <p>Feel free to reach out if you have any questions!</p>
-<p><img src="images/email_inforbio.png" class="img-fluid" width="300"></p>
+<a class="contact-email" href="#">[email]</a><noscript>inforbio [at] sorbonne-universite [dot] fr</noscript>
 </div>
 </div>
 </div>
@@ -561,6 +561,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var addr = "inforbio" + "@" + "sorbonne-universite.fr";
+    document.querySelectorAll(".contact-email").forEach(function (a) {
+      a.href = "mailto:" + addr;
+      a.textContent = addr;
+    });
+  });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -976,7 +985,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
+<p><a href="../mention_legale.html">Legal Notices</a> | Built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
   </div>
 </footer>
