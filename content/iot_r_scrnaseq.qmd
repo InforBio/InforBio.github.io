@@ -77,7 +77,9 @@ La formation complète est proposée au tarif de **2500 €**.
 
 N’hésitez pas à nous contacter si vous avez des questions !
 
-![](images/email_inforbio.png){width=300px}
+```{=html}
+<a class="contact-email" href="#">[email]</a><noscript>inforbio [at] sorbonne-universite [dot] fr</noscript>
+```
 
 
 ### English Version
@@ -148,6 +150,8 @@ The complete training package is available for **€2500**.
 
 Feel free to reach out if you have any questions!
 
-![](images/email_inforbio.png){width=300px}
+```{=html}
+<a class="contact-email" href="#">[email]</a><noscript>inforbio [at] sorbonne-universite [dot] fr</noscript>
+```
 
 :::
