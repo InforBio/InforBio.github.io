@@ -1,0 +1,16 @@
+---
+title: "Mentions légales"
+---
+
+Le site **InforBio** est la vitrine web de la plateforme de bioinformatique de Sorbonne Université.
+
+* **Établissement de rattachement :** Sorbonne Université
+* **Adresse :** 21 rue de l'Ecole de Médecine, 75006 Paris, FRANCE
+
+Le site est hébergé par :
+
+* **GitHub Inc.**
+* **Adresse de l'hébergeur :** 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis
+* **Site web :** [https://pages.github.com](https://pages.github.com)
+
+Sauf mention contraire explicite, l'ensemble des contenus textuels et visuels produits pour ce site est mis à disposition selon les termes de la licence **Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 Internationale (CC BY-NC 4.0)**.
