@@ -10,3 +10,8 @@
 # Quarto files to ignore
 /docs/
 /.quarto/
+
+# Renv files to ignore
+/renv
+.Rprofile
+renv.lock

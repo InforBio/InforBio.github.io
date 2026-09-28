@@ -8,7 +8,7 @@ website:
   favicon: images/logoInforBio_fond_blanc.png
   
   page-footer: 
-    right: "This page is built with [Quarto](https://quarto.org/)"
+    right: "[Legal Notices](/mention_legale.html) | Built with [Quarto](https://quarto.org/)"
     left: "&copy; CC BY-NC 4.0 [InforBio]"
     
   navbar:
@@ -41,6 +41,7 @@ format:
   html:
     theme: cosmo
     toc: true
+    include-after-body: _email.html
 
 
 

@@ -1,0 +1,9 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var addr = "inforbio" + "@" + "sorbonne-universite.fr";
+    document.querySelectorAll(".contact-email").forEach(function (a) {
+      a.href = "mailto:" + addr;
+      a.textContent = addr;
+    });
+  });
+</script>
